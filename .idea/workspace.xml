@@ -57,11 +57,13 @@
       <file leaf-file-name="HomeWork.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/geekbrains/java1/lesson1/homework/HomeWork.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+            <state relative-caret-position="-85">
+              <caret line="19" column="57" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
               <folding>
-                <element signature="e#1379#1380#0" expanded="true" />
-                <element signature="e#1419#1420#0" expanded="true" />
+                <element signature="e#1976#1977#0" expanded="true" />
+                <element signature="e#2016#2017#0" expanded="true" />
+                <element signature="e#2064#2065#0" expanded="true" />
+                <element signature="e#2119#2120#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -594,7 +596,14 @@
       <option name="project" value="LOCAL" />
       <updated>1470773561125</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="косметические доделки&#10;">
+      <created>1470773661415</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1470773661415</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -646,7 +655,8 @@
     <MESSAGE value="начал делать домашнюю работу" />
     <MESSAGE value="сделал задание по методам" />
     <MESSAGE value="сделал задание по выполнению сложной операции" />
-    <option name="LAST_COMMIT_MESSAGE" value="сделал задание по выполнению сложной операции" />
+    <MESSAGE value="косметические доделки&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="косметические доделки&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -701,11 +711,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/geekbrains/java1/lesson1/homework/HomeWork.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+        <state relative-caret-position="-85">
+          <caret line="19" column="57" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
           <folding>
-            <element signature="e#1379#1380#0" expanded="true" />
-            <element signature="e#1419#1420#0" expanded="true" />
+            <element signature="e#1976#1977#0" expanded="true" />
+            <element signature="e#2016#2017#0" expanded="true" />
+            <element signature="e#2064#2065#0" expanded="true" />
+            <element signature="e#2119#2120#0" expanded="true" />
           </folding>
         </state>
       </provider>
