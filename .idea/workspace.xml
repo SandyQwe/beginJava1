@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d30a2e2c-3e4e-4ace-9f09-02ee2ebf323b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/geekbrains/java1/lesson1/homework/HomeWork.java" afterPath="$PROJECT_DIR$/src/geekbrains/java1/lesson1/homework/HomeWork.java" />
     </list>
     <ignored path="beginJava_1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,8 +37,8 @@
       <file leaf-file-name="Types.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/geekbrains/java1/lesson1/types/Types.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="25" selection-start-line="7" selection-start-column="8" selection-end-line="14" selection-end-column="25" />
+            <state relative-caret-position="391">
+              <caret line="23" column="48" selection-start-line="16" selection-start-column="8" selection-end-line="23" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -46,8 +47,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/geekbrains/java1/lesson1/homework/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="85">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -56,11 +57,11 @@
       <file leaf-file-name="HomeWork.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/geekbrains/java1/lesson1/homework/HomeWork.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+            <state relative-caret-position="238">
+              <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
               <folding>
-                <element signature="e#779#780#0" expanded="true" />
-                <element signature="e#819#820#0" expanded="true" />
+                <element signature="e#1379#1380#0" expanded="true" />
+                <element signature="e#1419#1420#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -586,7 +587,14 @@
       <option name="project" value="LOCAL" />
       <updated>1470772588960</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="сделал задание по выполнению сложной операции">
+      <created>1470773561125</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1470773561125</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -637,7 +645,8 @@
     <MESSAGE value="sout" />
     <MESSAGE value="начал делать домашнюю работу" />
     <MESSAGE value="сделал задание по методам" />
-    <option name="LAST_COMMIT_MESSAGE" value="сделал задание по методам" />
+    <MESSAGE value="сделал задание по выполнению сложной операции" />
+    <option name="LAST_COMMIT_MESSAGE" value="сделал задание по выполнению сложной операции" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -674,29 +683,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/geekbrains/java1/lesson1/types/Types.java">
+    <entry file="file://$PROJECT_DIR$/src/geekbrains/java1/lesson1/homework/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="25" selection-start-line="7" selection-start-column="8" selection-end-line="14" selection-end-column="25" />
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/geekbrains/java1/lesson1/homework/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/geekbrains/java1/lesson1/types/Types.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="391">
+          <caret line="23" column="48" selection-start-line="16" selection-start-column="8" selection-end-line="23" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/geekbrains/java1/lesson1/homework/HomeWork.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+        <state relative-caret-position="238">
+          <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
           <folding>
-            <element signature="e#779#780#0" expanded="true" />
-            <element signature="e#819#820#0" expanded="true" />
+            <element signature="e#1379#1380#0" expanded="true" />
+            <element signature="e#1419#1420#0" expanded="true" />
           </folding>
         </state>
       </provider>
