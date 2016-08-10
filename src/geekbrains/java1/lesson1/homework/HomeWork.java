@@ -1,12 +1,14 @@
 package geekbrains.java1.lesson1.homework;
 
+import com.sun.org.apache.xpath.internal.SourceTree;
+
 import java.util.Scanner;
 
 /**
  * Created by Александр on 10.08.2016.
  */
-public class HomeWork {
-    public void doIt() {
+class HomeWork {
+    void doIt() {
 
         //объявление переменных
         byte varByte = 120;
@@ -56,13 +58,28 @@ public class HomeWork {
         System.out.print("\nВторое число: ");
         byte b2 = in.nextByte();
         boolean bool2 = isItTrue(a2, b2);
-        System.out.print("\n\nПроверка, лежит ли сумма чисел "+a2 +" и "+b2+" в пределах от 10 до 20 включительно: ");
+        System.out.print("\n\nПроверка, лежит ли сумма чисел " + a2 + " и " + b2 + " в пределах от 10 до 20 включительно: ");
         if (bool2) {
             System.out.println("ЛЕЖИТ");
-        }
-        else {
+        } else {
             System.out.println("НЕ ЛЕЖИТ");
         }
+
+        // Написать метод, который определяет является ли год високосным.
+        // Каждый 4й год является високосным, кроме каждого 100го, при
+        // этом каждый 400й – високосный.
+        int year;
+        do {
+            System.out.print("Введите год (нашей эры): ");
+            year = in.nextInt();
+        } while (year <= 0);
+        if (testLeapYear(year)) {
+            System.out.println("Год високосный!");
+        }
+        else {
+            System.out.println("Год не високосный!");
+        }
+
 
     }
 
@@ -73,6 +90,10 @@ public class HomeWork {
 
     private boolean isItTrue(byte a, byte b) {
         return ((a + b) >= 10 && (a + b) <= 20);
+    }
+
+    private boolean testLeapYear(int year) {
+        return ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0);
     }
 
 }
