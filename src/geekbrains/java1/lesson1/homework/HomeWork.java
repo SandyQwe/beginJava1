@@ -36,29 +36,29 @@ class HomeWork {
 
         //Написать метод вычисляющий выражение a * (b + (c / d)) и возвращающий результат,
         // где a,b,c,d – входные параметры этого метода.
-        System.out.println("Введите четыре числа - a, b, c и d");
+        System.out.println("\nВведите четыре числа - a, b, c и d");
         float firstMethodResult;
         System.out.print("a = ");
         float a1 = in.nextFloat();
-        System.out.print("\nb = ");
+        System.out.print("b = ");
         float b1 = in.nextFloat();
-        System.out.print("\nc = ");
+        System.out.print("c = ");
         float c1 = in.nextFloat();
-        System.out.print("\nd = ");
+        System.out.print("d = ");
         float d1 = in.nextFloat();
         firstMethodResult = firstMethod(a1, b1, c1, d1);
-        System.out.println("\n\nРезультат операции над числами " + a1 + "*(" + b1 + "+(" + c1 + "/" + d1 + ")) составит " + firstMethodResult);
+        System.out.println("Результат операции над числами " + a1 + "*(" + b1 + "+(" + c1 + "/" + d1 + ")) составит " + firstMethodResult);
 
         // Написать метод, принимающий на вход два числа,
         // и проверяющий что их сумма лежит в пределах 10 до 20,
         // если да – вернуть true, в противном случае – false.
-        System.out.println("Введите два числа (до 127), чтобы проверить, лежит ли их сумма между 10 и 20 включительно");
+        System.out.println("\nВведите два числа (до 127), чтобы проверить, лежит ли их сумма между 10 и 20 включительно");
         System.out.print("Первое число: ");
         byte a2 = in.nextByte();
-        System.out.print("\nВторое число: ");
+        System.out.print("Второе число: ");
         byte b2 = in.nextByte();
         boolean bool2 = isItTrue(a2, b2);
-        System.out.print("\n\nПроверка, лежит ли сумма чисел " + a2 + " и " + b2 + " в пределах от 10 до 20 включительно: ");
+        System.out.print("\nПроверка, лежит ли сумма чисел " + a2 + " и " + b2 + " в пределах от 10 до 20 включительно: ");
         if (bool2) {
             System.out.println("ЛЕЖИТ");
         } else {
@@ -69,6 +69,7 @@ class HomeWork {
         // Каждый 4й год является високосным, кроме каждого 100го, при
         // этом каждый 400й – високосный.
         int year;
+        System.out.println("\nПроверка високосного года");
         do {
             System.out.print("Введите год (нашей эры): ");
             year = in.nextInt();
