@@ -34,17 +34,23 @@ public class HomeWork {
 
         //Написать метод вычисляющий выражение a * (b + (c / d)) и возвращающий результат,
         // где a,b,c,d – входные параметры этого метода.
+        System.out.println("Введите четыре числа - a, b, c и d");
         float firstMethodResult;
-        float a1 = 10f;
-        float b1 = 13f;
-        float c1 = 16f;
-        float d1 = 28f;
+        System.out.print("a = ");
+        float a1 = in.nextFloat();
+        System.out.print("\nb = ");
+        float b1 = in.nextFloat();
+        System.out.print("\nc = ");
+        float c1 = in.nextFloat();
+        System.out.print("\nd = ");
+        float d1 = in.nextFloat();
         firstMethodResult = firstMethod(a1, b1, c1, d1);
         System.out.println("\n\nРезультат операции над числами " + a1 + "*(" + b1 + "+(" + c1 + "/" + d1 + ")) составит " + firstMethodResult);
 
         // Написать метод, принимающий на вход два числа,
         // и проверяющий что их сумма лежит в пределах 10 до 20,
         // если да – вернуть true, в противном случае – false.
+
         byte a2 = 8;
         byte b2 = 10;
         boolean bool2 = isItTrue(a2, b2);
