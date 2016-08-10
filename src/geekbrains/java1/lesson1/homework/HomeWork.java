@@ -1,5 +1,7 @@
 package geekbrains.java1.lesson1.homework;
 
+import java.util.Scanner;
+
 /**
  * Created by Александр on 10.08.2016.
  */
@@ -15,6 +17,9 @@ public class HomeWork {
         double varDouble = 0.5;
         char c = 'f';
         boolean b = true;
+
+        // для ввода цифр
+        Scanner in = new Scanner(System.in);
 
         //вывод переменных
         System.out.println("Вывод объявленных переменных:");
