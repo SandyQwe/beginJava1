@@ -90,11 +90,11 @@ class HomeWork {
     }
 
     private boolean isItTrue(byte a, byte b) {
-        return ((a + b) >= 10 && (a + b) <= 20);
+        return a + b >= 10 && a + b <= 20;
     }
 
     private boolean testLeapYear(int year) {
-        return ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0);
+        return year % 4 == 0 && year % 100 != 0 || year % 400 == 0;
     }
 
 }
