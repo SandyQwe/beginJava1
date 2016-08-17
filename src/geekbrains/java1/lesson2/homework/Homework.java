@@ -29,6 +29,18 @@ class Homework {
         }
         System.out.println();
 
+        //Создать массив из 8 целых чисел. С помощью цикла заполнить его значениями 1 4 7 10 13 16 19 22;
+        int[] arr2 = new int[8];
+        arr2[0] = 1;
+        System.out.println("массив из 8 чисел:");
+        System.out.print(arr2[0] + " ");
+        for (int i = 1; i < arr2.length; i++) {
+            arr2[i] = arr[i-1]+3;
+            System.out.print(arr[i] + " ");
+        }
+        System.out.println();
+
+
 
     }
 }

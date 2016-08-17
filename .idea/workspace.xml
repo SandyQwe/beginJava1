@@ -60,8 +60,8 @@
       <file leaf-file-name="Homework.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/geekbrains/java1/lesson2/homework/Homework.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+            <state relative-caret-position="501">
+              <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -722,7 +722,14 @@
       <option name="project" value="LOCAL" />
       <updated>1471441269319</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="закончил задание 2">
+      <created>1471441455940</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1471441455940</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -783,7 +790,8 @@
     <MESSAGE value="косметические изменения" />
     <MESSAGE value="начал делать домашнее задание ко второму уроку" />
     <MESSAGE value="закончил задание 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="закончил задание 1" />
+    <MESSAGE value="закончил задание 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="закончил задание 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1000,8 +1008,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/geekbrains/java1/lesson2/homework/Homework.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+        <state relative-caret-position="501">
+          <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
           <folding />
         </state>
       </provider>
