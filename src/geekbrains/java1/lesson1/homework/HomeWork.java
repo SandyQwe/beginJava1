@@ -4,7 +4,7 @@ import com.sun.org.apache.xpath.internal.SourceTree;
 
 import java.util.Scanner;
 
-/**
+/** ff
  * Created by Александр on 10.08.2016.
  */
 class HomeWork {
@@ -79,6 +79,7 @@ class HomeWork {
         }
         else {
             System.out.println("Год не високосный!");
+            System.out.printf("");
         }
 
 
