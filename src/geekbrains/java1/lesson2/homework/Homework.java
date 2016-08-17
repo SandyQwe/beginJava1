@@ -84,6 +84,7 @@ class Homework {
         a = scanner.nextInt();
         oper = scanner.next().charAt(0);
         b = scanner.nextInt();
+        scanner.close();
 
         switch (oper) {
             case '+':

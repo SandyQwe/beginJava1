@@ -24,29 +24,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HelloWorld.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/geekbrains/java1/lesson1/first_program/HelloWorld.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
-              <folding>
-                <element signature="e#190#191#0" expanded="false" />
-                <element signature="e#240#241#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Types.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/geekbrains/java1/lesson1/types/Types.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="48" selection-start-line="16" selection-start-column="8" selection-end-line="23" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/geekbrains/java1/lesson1/homework/Main.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -60,45 +37,11 @@
       <file leaf-file-name="Homework.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/geekbrains/java1/lesson2/homework/Homework.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="81" column="24" selection-start-line="81" selection-start-column="24" selection-end-line="81" selection-end-column="24" />
+            <state relative-caret-position="-1445">
+              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HomeWork.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/geekbrains/java1/lesson1/homework/HomeWork.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-204">
-              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3385#3386#0" expanded="true" />
-                <element signature="e#3459#3460#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/geekbrains/java1/lesson2/homework/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GregorianCalendar.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../../jdk/src.zip!/java/util/GregorianCalendar.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-10795">
-              <caret line="425" column="66" selection-start-line="425" selection-start-column="7" selection-end-line="425" selection-end-column="66" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -773,7 +716,14 @@
       <option name="project" value="LOCAL" />
       <updated>1471446873092</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="закончил задание 6">
+      <created>1471448447705</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1471448447705</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TodoView">
@@ -815,6 +765,24 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
       <collection />
@@ -850,7 +818,8 @@
     <MESSAGE value="исправил задание 1" />
     <MESSAGE value="немного косметики и наполовину сделанное 5 задание" />
     <MESSAGE value="закончил задание 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="закончил задание 5" />
+    <MESSAGE value="закончил задание 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="закончил задание 6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1045,14 +1014,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/geekbrains/java1/lesson2/homework/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/geekbrains/java1/lesson1/homework/HomeWork.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-204">
@@ -1065,10 +1026,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/geekbrains/java1/lesson2/homework/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/geekbrains/java1/lesson2/homework/Homework.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="81" column="24" selection-start-line="81" selection-start-column="24" selection-end-line="81" selection-end-column="24" />
+        <state relative-caret-position="-1445">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
