@@ -40,6 +40,21 @@ class Homework {
         }
         System.out.println();
 
+        //Задать массив int[] mas = { 1, 5, 3, 2, 11, 4, 5, 2, 4, 8, 9, 1 };
+        // пройти по нему циклом, и числа которые меньше 6 умножить на 2.
+        int[] mas = { 1, 5, 3, 2, 11, 4, 5, 2, 4, 8, 9, 1 };
+        String oldMas = "";
+        String newMas = "";
+        for (int i = 0; i < mas.length; i++) {
+            oldMas = oldMas + mas[i] + " ";
+            if (mas[i] <6) mas[i] = mas[i] * 2;
+            newMas = newMas + mas[i] + " ";
+        }
+        System.out.println("изначальный массив: \n" + oldMas + "\n" +
+                "изменённый массив (числа которые меньше 6 умножены на 2):\n" + newMas);
+
+
+
 
 
     }
