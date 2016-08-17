@@ -26,7 +26,7 @@ class Homework {
             else arr[i]++;
             System.out.print(arr[i] + " ");
         }
-        System.out.println();
+        System.out.println("\n--------------------------\n");
 
         //Создать массив из 8 целых чисел. С помощью цикла заполнить его значениями 1 4 7 10 13 16 19 22;
         int[] newArr2 = new int[8];
@@ -37,7 +37,7 @@ class Homework {
             newArr2[i] = newArr2[i-1]+3;
             System.out.print(newArr2[i] + " ");
         }
-        System.out.println();
+        System.out.println("\n--------------------------\n");
 
         //Задать массив int[] mas = { 1, 5, 3, 2, 11, 4, 5, 2, 4, 8, 9, 1 };
         // пройти по нему циклом, и числа которые меньше 6 умножить на 2.
@@ -50,10 +50,20 @@ class Homework {
             newMas = newMas + mas[i] + " ";
         }
         System.out.println("изначальный массив: \n" + oldMas + "\n" +
-                "изменённый массив (числа которые меньше 6 умножены на 2):\n" + newMas);
+                "изменённый массив (числа которые меньше 6 умножены на 2):\n" + newMas + "\n--------------------------\n");
 
         //* Задать одномерный массив и найти в нем минимальный и максимальный элементы;
         int[] array = new int[rnd.nextInt(15)];
+        array[0] = rnd.nextInt(99);
+        int arrMin = array[0];
+        int arrMax = array[0];
+        System.out.print("Дано: массив из " + array.length +
+                " целых чисел, необходимо найти минимальное и максимальное число в массиве\nМассив: ");
+
+        for (int i = 1; i < array.length; i++) {
+
+
+        }
 
 
 
