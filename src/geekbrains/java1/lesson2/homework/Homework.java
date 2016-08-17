@@ -14,8 +14,7 @@ class Homework {
         Random rnd = new Random();
         System.out.println("массив состоящий из элементов 0 и 1");
         for (int i = 0; i < arr.length; i++) {
-            if (rnd.nextBoolean()) arr[i] = 1;
-            else arr[i] = 0;
+            arr[i] = rnd.nextInt(2);
             System.out.print(arr[i] + " ");
         }
         System.out.println();
@@ -52,6 +51,10 @@ class Homework {
         }
         System.out.println("изначальный массив: \n" + oldMas + "\n" +
                 "изменённый массив (числа которые меньше 6 умножены на 2):\n" + newMas);
+
+        //* Задать одномерный массив и найти в нем минимальный и максимальный элементы;
+        int[] array = new int[rnd.nextInt(15)];
+
 
 
 
