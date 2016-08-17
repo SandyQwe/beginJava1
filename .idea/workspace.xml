@@ -60,8 +60,8 @@
       <file leaf-file-name="Homework.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/geekbrains/java1/lesson2/homework/Homework.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+            <state relative-caret-position="493">
+              <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -715,7 +715,14 @@
       <option name="project" value="LOCAL" />
       <updated>1471440151989</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="закончил задание 1">
+      <created>1471441269319</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1471441269319</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -775,7 +782,8 @@
     <MESSAGE value="сделал метод для определения високосного года" />
     <MESSAGE value="косметические изменения" />
     <MESSAGE value="начал делать домашнее задание ко второму уроку" />
-    <option name="LAST_COMMIT_MESSAGE" value="начал делать домашнее задание ко второму уроку" />
+    <MESSAGE value="закончил задание 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="закончил задание 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -992,8 +1000,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/geekbrains/java1/lesson2/homework/Homework.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+        <state relative-caret-position="493">
+          <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
           <folding />
         </state>
       </provider>
