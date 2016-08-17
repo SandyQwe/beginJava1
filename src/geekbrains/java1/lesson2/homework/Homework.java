@@ -1,6 +1,7 @@
 package geekbrains.java1.lesson2.homework;
 
 import java.util.Random;
+import java.util.StringJoiner;
 
 /**
  * dd
@@ -53,17 +54,21 @@ class Homework {
                 "изменённый массив (числа которые меньше 6 умножены на 2):\n" + newMas + "\n--------------------------\n");
 
         //* Задать одномерный массив и найти в нем минимальный и максимальный элементы;
-        int[] array = new int[rnd.nextInt(15)];
+        int[] array = new int[rnd.nextInt(15)+5];
         array[0] = rnd.nextInt(99);
         int arrMin = array[0];
         int arrMax = array[0];
         System.out.print("Дано: массив из " + array.length +
                 " целых чисел, необходимо найти минимальное и максимальное число в массиве\nМассив: ");
-
+        String arrayS = array[0] + " ";
         for (int i = 1; i < array.length; i++) {
-
-
+            array[i] = rnd.nextInt(99);
+            arrayS = arrayS + array[i] + " ";
+            if (arrMin > array[i]) arrMin = array[i];
+            if (arrMax < array[i]) arrMax = array[i];
         }
+        System.out.println(arrayS + "\nМинимальное число: " + arrMin + "\nМаксимальное число: " + arrMax);
+        System.out.println("--------------------------\n");
 
 
 
