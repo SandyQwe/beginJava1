@@ -57,14 +57,14 @@
       <file leaf-file-name="NoughtsAndCrosses.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/geekbrains/java1/lesson3/homework/NoughtsAndCrosses.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="148" column="8" selection-start-line="148" selection-start-column="8" selection-end-line="148" selection-end-column="8" />
+            <state relative-caret-position="472">
+              <caret line="164" column="7" selection-start-line="164" selection-start-column="7" selection-end-line="164" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#5149#5150#0" expanded="true" />
-                <element signature="e#5224#5225#0" expanded="true" />
-                <element signature="e#5271#5272#0" expanded="true" />
-                <element signature="e#5318#5319#0" expanded="true" />
+                <element signature="e#7671#7672#0" expanded="true" />
+                <element signature="e#7746#7747#0" expanded="true" />
+                <element signature="e#7793#7794#0" expanded="true" />
+                <element signature="e#7840#7841#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -977,7 +977,14 @@
       <option name="project" value="LOCAL" />
       <updated>1471802729911</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="начал делать 4 задание">
+      <created>1471804272386</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1471804272386</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1049,7 +1056,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="sout" />
     <MESSAGE value="начал делать домашнюю работу" />
     <MESSAGE value="сделал задание по методам" />
     <MESSAGE value="сделал задание по выполнению сложной операции" />
@@ -1074,7 +1080,8 @@
     <MESSAGE value="начал делать домашку к третьему уроку" />
     <MESSAGE value="доделал задание 2 (Усовершенствовать метод проверки победы(через циклы);)" />
     <MESSAGE value="исправил ошибки в проверке диагонали слева снизу вправо вверх" />
-    <option name="LAST_COMMIT_MESSAGE" value="исправил ошибки в проверке диагонали слева снизу вправо вверх" />
+    <MESSAGE value="начал делать 4 задание" />
+    <option name="LAST_COMMIT_MESSAGE" value="начал делать 4 задание" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1322,14 +1329,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/geekbrains/java1/lesson3/homework/NoughtsAndCrosses.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="148" column="8" selection-start-line="148" selection-start-column="8" selection-end-line="148" selection-end-column="8" />
+        <state relative-caret-position="472">
+          <caret line="164" column="7" selection-start-line="164" selection-start-column="7" selection-end-line="164" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5149#5150#0" expanded="true" />
-            <element signature="e#5224#5225#0" expanded="true" />
-            <element signature="e#5271#5272#0" expanded="true" />
-            <element signature="e#5318#5319#0" expanded="true" />
+            <element signature="e#7671#7672#0" expanded="true" />
+            <element signature="e#7746#7747#0" expanded="true" />
+            <element signature="e#7793#7794#0" expanded="true" />
+            <element signature="e#7840#7841#0" expanded="true" />
           </folding>
         </state>
       </provider>
