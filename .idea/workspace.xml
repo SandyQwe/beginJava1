@@ -57,14 +57,14 @@
       <file leaf-file-name="NoughtsAndCrosses.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/geekbrains/java1/lesson3/homework/NoughtsAndCrosses.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="116" column="5" selection-start-line="116" selection-start-column="5" selection-end-line="116" selection-end-column="5" />
+            <state relative-caret-position="387">
+              <caret line="148" column="8" selection-start-line="148" selection-start-column="8" selection-end-line="148" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#4929#4930#0" expanded="true" />
-                <element signature="e#5004#5005#0" expanded="true" />
-                <element signature="e#5051#5052#0" expanded="true" />
-                <element signature="e#5098#5099#0" expanded="true" />
+                <element signature="e#5149#5150#0" expanded="true" />
+                <element signature="e#5224#5225#0" expanded="true" />
+                <element signature="e#5271#5272#0" expanded="true" />
+                <element signature="e#5318#5319#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -970,7 +970,14 @@
       <option name="project" value="LOCAL" />
       <updated>1471800184825</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="исправил ошибки в проверке диагонали слева снизу вправо вверх">
+      <created>1471802729911</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1471802729911</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1042,7 +1049,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="variableas" />
     <MESSAGE value="sout" />
     <MESSAGE value="начал делать домашнюю работу" />
     <MESSAGE value="сделал задание по методам" />
@@ -1067,7 +1073,8 @@
     <MESSAGE value="немного доделал задание 6" />
     <MESSAGE value="начал делать домашку к третьему уроку" />
     <MESSAGE value="доделал задание 2 (Усовершенствовать метод проверки победы(через циклы);)" />
-    <option name="LAST_COMMIT_MESSAGE" value="доделал задание 2 (Усовершенствовать метод проверки победы(через циклы);)" />
+    <MESSAGE value="исправил ошибки в проверке диагонали слева снизу вправо вверх" />
+    <option name="LAST_COMMIT_MESSAGE" value="исправил ошибки в проверке диагонали слева снизу вправо вверх" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1315,14 +1322,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/geekbrains/java1/lesson3/homework/NoughtsAndCrosses.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="116" column="5" selection-start-line="116" selection-start-column="5" selection-end-line="116" selection-end-column="5" />
+        <state relative-caret-position="387">
+          <caret line="148" column="8" selection-start-line="148" selection-start-column="8" selection-end-line="148" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4929#4930#0" expanded="true" />
-            <element signature="e#5004#5005#0" expanded="true" />
-            <element signature="e#5051#5052#0" expanded="true" />
-            <element signature="e#5098#5099#0" expanded="true" />
+            <element signature="e#5149#5150#0" expanded="true" />
+            <element signature="e#5224#5225#0" expanded="true" />
+            <element signature="e#5271#5272#0" expanded="true" />
+            <element signature="e#5318#5319#0" expanded="true" />
           </folding>
         </state>
       </provider>

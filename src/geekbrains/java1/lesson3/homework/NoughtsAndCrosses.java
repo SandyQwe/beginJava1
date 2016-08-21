@@ -33,16 +33,16 @@ class NoughtsAndCrosses {
                 System.out.println("Ничья");
                 break;
             }
-//            aiTurn();
-//            printMap();
-//            if (checkWin(AI_DOT)) {
-//                System.out.println("Выиграл компьютер");
-//                break;
-//            }
-//            if (mapIsFull()) {
-//                System.out.println("Ничья");
-//                break;
-//            }
+            aiTurn();
+            printMap();
+            if (checkWin(AI_DOT)) {
+                System.out.println("Выиграл компьютер");
+                break;
+            }
+            if (mapIsFull()) {
+                System.out.println("Ничья");
+                break;
+            }
         }
         scanner.close();
 
@@ -111,8 +111,8 @@ class NoughtsAndCrosses {
         for (int i = 0; i <= (fieldSizeY - y - 1 < x ? fieldSizeY - y - 1 : x); i++)
             if (field[y+i][x-i] == c) if (++winLine == line) return true; else; else break;
         if (y != 0 && x != fieldSizeX - 1)
-        for (int i = 1; i <= (y < fieldSizeX - x - 1 ? y : fieldSizeX - x - 1); i++)
-            if (field[y-i][x+i] == c) if (++winLine == line) return true; else; else break;
+            for (int i = 1; i <= (y < fieldSizeX - x - 1 ? y : fieldSizeX - x - 1); i++)
+                if (field[y-i][x+i] == c) if (++winLine == line) return true; else; else break;
         return false;
     }
 
@@ -130,13 +130,24 @@ class NoughtsAndCrosses {
 
     private void aiTurn() {
         int x, y;
-        do {
-            x = rnd.nextInt(fieldSizeX);
-            y = rnd.nextInt(fieldSizeY);
-        } while (!validCell(x, y) || !emptyCell(x, y));
+        if (aiCanBlock(lastCell[0], lastCell[1])) aiBlock();
+        else
+            do {
+                  x = rnd.nextInt(fieldSizeX);
+                  y = rnd.nextInt(fieldSizeY);
+            } while (!emptyCell(x, y));
         lastCell[0] = x;
         lastCell[1] = y;
         field[y][x] = AI_DOT;
+    }
+
+    private void aiBlock() {
+        // TODO: 21.08.2016 допилить
+    }
+
+    private boolean aiCanBlock(int x, int y) {
+
+        return false;
     }
 
     private boolean validCell(int x, int y) {
