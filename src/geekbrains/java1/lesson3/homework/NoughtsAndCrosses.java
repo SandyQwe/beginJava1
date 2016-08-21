@@ -108,11 +108,10 @@ class NoughtsAndCrosses {
             if (field[y+i][x+i] == c) if (++winLine == line) return true; else; else break;
         //проверка диагонали слева снизу вправо вверх
         winLine = 0;
-        int t = fieldSizeY - y - 1 < x ? fieldSizeY - y - 1 : x;
         for (int i = 0; i <= (fieldSizeY - y - 1 < x ? fieldSizeY - y - 1 : x); i++)
             if (field[y+i][x-i] == c) if (++winLine == line) return true; else; else break;
-        if (x > 0 && y > 0 && x < fieldSizeX - 1 && y < fieldSizeY - 1)
-        for (int i = 1; i < (y > fieldSizeX - x - 1 ? y : fieldSizeX - x - 1); i++)
+        if (y != 0 && x != fieldSizeX - 1)
+        for (int i = 1; i <= (y < fieldSizeX - x - 1 ? y : fieldSizeX - x - 1); i++)
             if (field[y-i][x+i] == c) if (++winLine == line) return true; else; else break;
         return false;
     }
