@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d30a2e2c-3e4e-4ace-9f09-02ee2ebf323b" name="Default" comment="">
+    <list default="true" id="d30a2e2c-3e4e-4ace-9f09-02ee2ebf323b" name="Default" comment="доделал задание 2 (Усовершенствовать метод проверки победы(через циклы);)">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/geekbrains/java1/lesson3/homework/NoughtsAndCrosses.java" afterPath="$PROJECT_DIR$/src/geekbrains/java1/lesson3/homework/NoughtsAndCrosses.java" />
     </list>
     <ignored path="beginJava_1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,16 +57,14 @@
       <file leaf-file-name="NoughtsAndCrosses.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/geekbrains/java1/lesson3/homework/NoughtsAndCrosses.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+            <state relative-caret-position="190">
+              <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2528#2529#0" expanded="true" />
-                <element signature="e#2556#2557#0" expanded="true" />
-                <element signature="e#2677#2678#0" expanded="true" />
-                <element signature="e#2704#2705#0" expanded="true" />
-                <element signature="e#2752#2753#0" expanded="true" />
-                <element signature="e#2779#2780#0" expanded="true" />
+                <element signature="e#5022#5023#0" expanded="true" />
+                <element signature="e#5097#5098#0" expanded="true" />
+                <element signature="e#5144#5145#0" expanded="true" />
+                <element signature="e#5191#5192#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -957,7 +956,14 @@
       <option name="project" value="LOCAL" />
       <updated>1471448902436</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="начал делать домашку к третьему уроку">
+      <created>1471787766859</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1471787766859</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TodoView">
@@ -980,7 +986,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32762313" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32762313" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24411134" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1029,8 +1035,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="1st comment" />
-    <MESSAGE value="hello world" />
     <MESSAGE value="variableas" />
     <MESSAGE value="sout" />
     <MESSAGE value="начал делать домашнюю работу" />
@@ -1054,15 +1058,19 @@
     <MESSAGE value="закончил задание 5" />
     <MESSAGE value="закончил задание 6" />
     <MESSAGE value="немного доделал задание 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="немного доделал задание 6" />
+    <MESSAGE value="начал делать домашку к третьему уроку" />
+    <MESSAGE value="доделал задание 2 (Усовершенствовать метод проверки победы(через циклы);)" />
+    <option name="LAST_COMMIT_MESSAGE" value="доделал задание 2 (Усовершенствовать метод проверки победы(через циклы);)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="line.substring(i,i+k)" language="JAVA" />
+        <watch expression="fieldSizeX - x" language="JAVA" />
+        <watch expression="fieldSizeY - y" language="JAVA" />
+        <watch expression="c" />
       </configuration>
     </watches-manager>
   </component>
@@ -1300,16 +1308,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/geekbrains/java1/lesson3/homework/NoughtsAndCrosses.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+        <state relative-caret-position="190">
+          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2528#2529#0" expanded="true" />
-            <element signature="e#2556#2557#0" expanded="true" />
-            <element signature="e#2677#2678#0" expanded="true" />
-            <element signature="e#2704#2705#0" expanded="true" />
-            <element signature="e#2752#2753#0" expanded="true" />
-            <element signature="e#2779#2780#0" expanded="true" />
+            <element signature="e#5022#5023#0" expanded="true" />
+            <element signature="e#5097#5098#0" expanded="true" />
+            <element signature="e#5144#5145#0" expanded="true" />
+            <element signature="e#5191#5192#0" expanded="true" />
           </folding>
         </state>
       </provider>
