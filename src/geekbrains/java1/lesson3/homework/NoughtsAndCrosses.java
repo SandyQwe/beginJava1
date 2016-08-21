@@ -160,11 +160,8 @@ class NoughtsAndCrosses {
         field[y][x] = AI_DOT;
     }
 
-//    private void aiBlock() {
-//        // TODO: 21.08.2016 допилить
-//    }
-
     private boolean aiCanBlock(int x, int y) {
+        //пока просматривает только смежные символы начиная с последнего, который поставил игрок
         //проверка на возможность блока справа
         if (x > 0 && field[y][x - 1] == HUMAN_DOT && validCell(x + 1, y) && emptyCell(x + 1, y)) {
             lastCell[0] = x + 1;

@@ -57,14 +57,14 @@
       <file leaf-file-name="NoughtsAndCrosses.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/geekbrains/java1/lesson3/homework/NoughtsAndCrosses.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-276">
-              <caret line="150" column="28" selection-start-line="150" selection-start-column="28" selection-end-line="150" selection-end-column="28" />
+            <state relative-caret-position="472">
+              <caret line="186" column="24" selection-start-line="186" selection-start-column="24" selection-end-line="186" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#7670#7671#0" expanded="true" />
-                <element signature="e#7745#7746#0" expanded="true" />
-                <element signature="e#7792#7793#0" expanded="true" />
-                <element signature="e#7839#7840#0" expanded="true" />
+                <element signature="e#7688#7689#0" expanded="true" />
+                <element signature="e#7763#7764#0" expanded="true" />
+                <element signature="e#7810#7811#0" expanded="true" />
+                <element signature="e#7857#7858#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -991,7 +991,14 @@
       <option name="project" value="LOCAL" />
       <updated>1471806028707</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="исправил мелкую ошибку и протестировал разные варианты блокирования, работают">
+      <created>1471806492056</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1471806492056</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1005,7 +1012,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299566" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1014,7 +1021,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32762313" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32762313" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24411134" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1063,7 +1070,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="сделал задание по методам" />
     <MESSAGE value="сделал задание по выполнению сложной операции" />
     <MESSAGE value="косметические доделки&#10;" />
     <MESSAGE value="сделано задание 4 на булеву логику&#10;" />
@@ -1088,7 +1094,8 @@
     <MESSAGE value="исправил ошибки в проверке диагонали слева снизу вправо вверх" />
     <MESSAGE value="начал делать 4 задание" />
     <MESSAGE value="вроде сделал 4 задание" />
-    <option name="LAST_COMMIT_MESSAGE" value="вроде сделал 4 задание" />
+    <MESSAGE value="исправил мелкую ошибку и протестировал разные варианты блокирования, работают" />
+    <option name="LAST_COMMIT_MESSAGE" value="исправил мелкую ошибку и протестировал разные варианты блокирования, работают" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1336,14 +1343,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/geekbrains/java1/lesson3/homework/NoughtsAndCrosses.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-276">
-          <caret line="150" column="28" selection-start-line="150" selection-start-column="28" selection-end-line="150" selection-end-column="28" />
+        <state relative-caret-position="472">
+          <caret line="186" column="24" selection-start-line="186" selection-start-column="24" selection-end-line="186" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#7670#7671#0" expanded="true" />
-            <element signature="e#7745#7746#0" expanded="true" />
-            <element signature="e#7792#7793#0" expanded="true" />
-            <element signature="e#7839#7840#0" expanded="true" />
+            <element signature="e#7688#7689#0" expanded="true" />
+            <element signature="e#7763#7764#0" expanded="true" />
+            <element signature="e#7810#7811#0" expanded="true" />
+            <element signature="e#7857#7858#0" expanded="true" />
           </folding>
         </state>
       </provider>
