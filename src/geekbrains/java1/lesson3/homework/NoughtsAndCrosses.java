@@ -146,7 +146,7 @@ class NoughtsAndCrosses {
 
     private void aiTurn() {
         int x, y;
-        if (!aiCanBlock(lastCell[0], lastCell[1])) {
+        if (aiCanBlock(lastCell[0], lastCell[1])) {
             x = lastCell[0];
             y = lastCell[1];
         } else {
