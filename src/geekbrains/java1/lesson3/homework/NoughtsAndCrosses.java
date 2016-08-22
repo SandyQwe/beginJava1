@@ -91,44 +91,44 @@ class NoughtsAndCrosses {
         int y = lastCell[1];
         //проверка вертикалей
         for (int i = y; i >= 0; i--)
-            if (field[i][x] == c) if (++winLine == line) return true;
-            else ;
-            else break;
+            if (field[i][x] == c) {
+                if (++winLine == line) return true;
+            } else break;
         for (int i = y + 1; i < fieldSizeY; i++)
-            if (field[i][x] == c) if (++winLine == line) return true;
-            else ;
-            else break;
+            if (field[i][x] == c) {
+                if (++winLine == line) return true;
+            } else break;
         //проверка горизонталей
         winLine = 0;
         for (int i = x; i >= 0; i--)
-            if (field[y][i] == c) if (++winLine == line) return true;
-            else ;
-            else break;
+            if (field[y][i] == c) {
+                if (++winLine == line) return true;
+            } else break;
         for (int i = x + 1; i < fieldSizeX; i++)
-            if (field[y][i] == c) if (++winLine == line) return true;
-            else ;
-            else break;
+            if (field[y][i] == c) {
+                if (++winLine == line) return true;
+            } else break;
         //проверка диагонали слева сверху вправо вниз
         winLine = 0;
         for (int i = 0; i <= (x <= y ? x : y); i++)
-            if (field[y - i][x - i] == c) if (++winLine == line) return true;
-            else ;
-            else break;
+            if (field[y - i][x - i] == c) {
+                if (++winLine == line) return true;
+            } else break;
         for (int i = 1; i < (fieldSizeX - x < fieldSizeY - y ? fieldSizeX - x : fieldSizeY - y); i++)
-            if (field[y + i][x + i] == c) if (++winLine == line) return true;
-            else ;
-            else break;
+            if (field[y + i][x + i] == c) {
+                if (++winLine == line) return true;
+            } else break;
         //проверка диагонали слева снизу вправо вверх
         winLine = 0;
         for (int i = 0; i <= (fieldSizeY - y - 1 < x ? fieldSizeY - y - 1 : x); i++)
-            if (field[y + i][x - i] == c) if (++winLine == line) return true;
-            else ;
-            else break;
+            if (field[y + i][x - i] == c) {
+                if (++winLine == line) return true;
+            } else break;
         if (y != 0 && x != fieldSizeX - 1)
             for (int i = 1; i <= (y < fieldSizeX - x - 1 ? y : fieldSizeX - x - 1); i++)
-                if (field[y - i][x + i] == c) if (++winLine == line) return true;
-                else ;
-                else break;
+                if (field[y - i][x + i] == c) {
+                    if (++winLine == line) return true;
+                } else break;
         return false;
     }
 
@@ -169,7 +169,9 @@ class NoughtsAndCrosses {
         // TODO: 22.08.2016 сделать выбор возможности блокирования промежутка между двух крестиков 
 
         // TODO: 22.08.2016 приоритет блокирования поставить рандомно (поскольку пока непонятно, как расставить приоритет исходя из возможностей блокирования 
-                
+
+        // TODO: 22.08.2016 реализовать "вес" ячейки на основе количества смежных ячеек с тем же символом 
+
         //проверка на возможность блока справа
         if (x > 0 && field[y][x - 1] == HUMAN_DOT && validCell(x + 1, y) && emptyCell(x + 1, y)) {
             lastCell[0] = x + 1;
