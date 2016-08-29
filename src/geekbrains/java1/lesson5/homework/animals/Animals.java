@@ -5,17 +5,22 @@ package geekbrains.java1.lesson5.homework.animals;
  */
 abstract public class Animals {
     String name;
+    String className;
 
-
-    void run() {
-        System.out.println(name + "бежит");
+    public Animals(String className, String name) {
+        this.name = name;
+        this.className = className;
     }
 
-    void swim() {
-        System.out.println(name + " плывет");
+    public void run(int distance) {
+        System.out.println(className + " " + name + " бежит на расстояние " + distance + " метров");
     }
 
-    void jump() {
-        System.out.println(name + "прыгает");
+    public void swim() {
+        System.out.println(className + " " + name + " плывет");
+    }
+
+    public void jump(float height) {
+        System.out.println(className + " " + name + " прыгает на высоту " + height + " метров");
     }
 }
