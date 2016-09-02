@@ -28,6 +28,7 @@ class GameWindow extends JFrame {
         btn_new_game.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                map.setVisible(false);
                 start_new_game_window.setVisible(true);
             }
         });
@@ -43,6 +44,7 @@ class GameWindow extends JFrame {
         panel_bottom.add(btn_new_game);
         panel_bottom.add(btn_exit);
         map = new Map();
+        map.setVisible(false);
         add(map, BorderLayout.CENTER);
         add(panel_bottom, BorderLayout.SOUTH);
         setVisible(true);
