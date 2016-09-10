@@ -13,7 +13,7 @@ class Course {
     }
 
     void doIt(Team t) {
-        for (Sportsman s : t.getParticipants()) {
+        for (Team.Sportsman s : t.getParticipants()) {
             for (Obstacle o : obstacles) {
                 o.doIt(s);
                 if (!s.isOnDistance()) break;
@@ -22,7 +22,7 @@ class Course {
     }
 
     abstract class Obstacle {
-        public abstract void doIt(Sportsman s);
+        public abstract void doIt(Team.Sportsman s);
     }
 
     class Cross extends Obstacle {
@@ -33,7 +33,7 @@ class Course {
         }
 
         @Override
-        public void doIt(Sportsman s) {
+        public void doIt(Team.Sportsman s) {
             s.run(distance);
         }
     }
@@ -46,7 +46,7 @@ class Course {
         }
 
         @Override
-        public void doIt(Sportsman s) {
+        public void doIt(Team.Sportsman s) {
             s.jump(height);
         }
     }
@@ -59,7 +59,7 @@ class Course {
         }
 
         @Override
-        public void doIt(Sportsman s) {
+        public void doIt(Team.Sportsman s) {
             s.swim(distance);
         }
     }

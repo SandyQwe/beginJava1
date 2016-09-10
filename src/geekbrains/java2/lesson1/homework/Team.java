@@ -26,6 +26,19 @@ class Team {
         System.out.println("====================");
     }
 
+    interface Sportsman {
+        void run(float dist);
+        void jump(float height);
+        void swim(float dist);
+        boolean isOnDistance();
+        void showResults();
+    }
+
+    interface Transport {
+        float getMaxDriveDist();
+        float getMaxJumpHeight();
+        float getMaxSwimDistance();
+    }
 
     abstract class Animal implements Sportsman {
         protected String name;
