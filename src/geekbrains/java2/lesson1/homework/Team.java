@@ -5,8 +5,16 @@ class Team {
     private String name;
     private Sportsman[] participants;
 
+    Team(){
+    }
+
     Team(String name) {
         this.name = name;
+    }
+
+    Team(String name, Sportsman[] s) {
+        this.name = name;
+        this.participants = s;
     }
 
     void setParticipants(Sportsman[] participants) {
