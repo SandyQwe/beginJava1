@@ -1,10 +1,10 @@
-package Tetris;
+package Games;
 
 /**
- * Java. Classic Game Tetris
+ * Java. Classic Game Games
  *
  * @author Sergey Iryupin
- * @version 0.3.5 dated 08 Sep 2016
+ * @version 0.3.6 dated 10 Sep 2016
  */
 import java.awt.*;
 import java.awt.event.*;
@@ -13,7 +13,7 @@ import java.util.*;
 
 public class Tetris {
 
-    final String TITLE_OF_PROGRAM = "Tetris";
+    final String TITLE_OF_PROGRAM = "Games";
     final int BLOCK_SIZE = 25; // size of one block
     final int ARC_RADIUS = 6;
     final int FIELD_WIDTH = 10; // size game field in block
@@ -25,7 +25,7 @@ public class Tetris {
     final int UP = 38;
     final int RIGHT = 39;
     final int DOWN = 40;
-    final int SHOW_DELAY = 350; // delay for animation
+    final int SHOW_DELAY = 400; // delay for animation
     final int[][][] SHAPES = {
             {{0,0,0,0}, {1,1,1,1}, {0,0,0,0}, {0,0,0,0}, {4, 0x00f0f0}}, // I
             {{0,0,0,0}, {0,1,1,0}, {0,1,1,0}, {0,0,0,0}, {4, 0xf0f000}}, // O
@@ -37,7 +37,7 @@ public class Tetris {
     };
     final int[] SCORES = {100, 300, 700, 1500};
     int gameScore = 0;
-    int[][] mine = new int[FIELD_HEIGHT + 1][FIELD_WIDTH];
+    int[][] mine = new int[FIELD_HEIGHT + 1][FIELD_WIDTH]; // mine/glass
     JFrame frame;
     Canvas canvasPanel = new Canvas();
     Random random = new Random();
@@ -91,14 +91,13 @@ public class Tetris {
                 Thread.sleep(SHOW_DELAY);
             } catch (Exception e) { e.printStackTrace(); }
             canvasPanel.repaint();
+            checkFilling();
             if (figure.isTouchGround()) {
                 figure.leaveOnTheGround();
-                checkFilling();
                 figure = new Figure();
-                gameOver = figure.isCrossGround();  // Is there space for a new figure?
-            } else {
+                gameOver = figure.isCrossGround(); // Is there space for a new figure?
+            } else
                 figure.stepDown();
-            }
         }
     }
 
@@ -112,9 +111,8 @@ public class Tetris {
             if (filled > 0) {
                 countFillRows++;
                 for (int i = row; i > 0; i--) System.arraycopy(mine[i-1], 0, mine[i], 0, FIELD_WIDTH);
-            } else {
+            } else
                 row--;
-            }
         }
         if (countFillRows > 0) {
             gameScore += SCORES[countFillRows - 1];
@@ -124,7 +122,7 @@ public class Tetris {
 
     class Figure {
         private ArrayList<Block> figure = new ArrayList<Block>();
-        int[][] shape = new int[4][4];
+        private int[][] shape = new int[4][4];
         private int type, size, color;
         private int x = 3, y = 0; // starting left up corner
 
@@ -168,7 +166,7 @@ public class Tetris {
 
         void move(int direction) {
             if (!isTouchWall(direction)) {
-                int dx = direction - 38;
+                int dx = direction - 38; // LEFT = -1, RIGHT = 1
                 for (Block block : figure) block.setX(block.getX() + dx);
                 x += dx;
             }
@@ -194,19 +192,31 @@ public class Tetris {
             return false;
         }
 
-        void rotate() {
+        void rotateShape(int direction) {
             for (int i = 0; i < size/2; i++)
-                for (int j = i; j < size-1-i; j++) {
-                    int tmp = shape[size-1-j][i];
-                    shape[size-1-j][i] = shape[size-1-i][size-1-j];
-                    shape[size-1-i][size-1-j] = shape[j][size-1-i];
-                    shape[j][size-1-i] = shape[i][j];
-                    shape[i][j] = tmp;
-                }
+                for (int j = i; j < size-1-i; j++)
+                    if (direction == RIGHT) { // clockwise
+                        int tmp = shape[size-1-j][i];
+                        shape[size-1-j][i] = shape[size-1-i][size-1-j];
+                        shape[size-1-i][size-1-j] = shape[j][size-1-i];
+                        shape[j][size-1-i] = shape[i][j];
+                        shape[i][j] = tmp;
+                    } else { // counterclockwise
+                        int tmp = shape[i][j];
+                        shape[i][j] = shape[j][size-1-i];
+                        shape[j][size-1-i] = shape[size-1-i][size-1-j];
+                        shape[size-1-i][size-1-j] = shape[size-1-j][i];
+                        shape[size-1-j][i] = tmp;
+                    }
+        }
+
+        void rotate() {
+            rotateShape(RIGHT);
             if (!isWrongPosition()) {
                 figure.clear();
                 createFromShape();
-            }
+            } else
+                rotateShape(LEFT);
         }
 
         void paint(Graphics g) {
