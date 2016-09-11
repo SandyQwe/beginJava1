@@ -10,6 +10,8 @@ package Games;
  *  - Any live cell with 2 or 3 live neighbours lives on to the next generation.
  *  - Any dead cell with exactly 3 live neighbours becomes a live cell, as if by reproduction.
  *
+ *  https://github.com/biblelamp/JavaExercises
+ *
  * @author Sergey Iryupin
  * @version 0.4.11 dated 20 Aug 2016
  */

@@ -3,6 +3,8 @@ package Games;
 /**
  * Java. Classic Game Games
  *
+ * https://github.com/biblelamp/JavaExercises
+ *
  * @author Sergey Iryupin
  * @version 0.3.6 dated 10 Sep 2016
  */
