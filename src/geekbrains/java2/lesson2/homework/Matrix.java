@@ -1,35 +1,41 @@
 package geekbrains.java2.lesson2.homework;
 
-/**
- * Created by sadmin on 14.09.2016.
- */
 public class Matrix {
     private String[][] matrix;
     private int[][] numMatrix;
 
-    public void Matrix(String line) throws IllegalSizeException {
-        this.matrix = new String[4][4];
-        this.numMatrix = new int[4][4];
+    public Matrix(String line) throws IllegalSizeException {
+//        this.matrix = new String[4][4];
+//        this.numMatrix = new int[4][4];
+        this.matrix = SetMatrix(line);
+        this.numMatrix = MatrixToInt(matrix);
+//        for (int i = 0; i < newLine.length; i++) {
+//            this.SetLine(i, newLine[i]);
+//            this.StringToInt(i, this.matrix[i]);
+//        }
+    }
+
+    private String[][] SetMatrix(String line) throws IllegalSizeException {
+        String[][] newMatrix = new String[4][4];
         String[] newLine = line.split("\n");
         if (newLine.length < 4) throw new IllegalSizeException("Слишком мало строк (должно быть 4)");
         if (newLine.length > 4) throw new IllegalSizeException("Слишком много строк (должно быть 4)");
         for (int i = 0; i < newLine.length; i++) {
-            this.SetLine(i, newLine[i]);
+            String[] newElement = newLine[i].split(" ");
+            if (newElement.length != 4) throw new IllegalSizeException("Неправильное количество столбцов (должно быть 4)");
+            newMatrix[i] = newElement;
         }
+        return newMatrix;
     }
 
-    public void SetLine(int row, String line) throws IllegalSizeException {
-        String[] newLine = line.split(" ");
-        if (newLine.length != 4) throw new IllegalSizeException("Неправильное количество столбцов (должно быть 4)");
-        this.matrix[row] = newLine;
-    }
-
-    public void StringToInt (int row, String[] line){
-        int[] newIntLine = new int[4];
-        for (int i = 0; i < line.length; i++) {
-            newIntLine[i] = Integer.getInteger(line[i]);
+    private int[][] MatrixToInt (String[][] matrix){
+        int[][] intMatrix = new int[4][4];
+        for (int i = 0; i < matrix.length; i++) {
+            for (int j = 0; j < matrix[i].length; j++) {
+                intMatrix[i][j] = Integer.getInteger(matrix[i][j]);
+            }
         }
-        this.numMatrix[row] = newIntLine;
+        return intMatrix;
     }
 
 
