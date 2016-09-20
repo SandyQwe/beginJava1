@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d30a2e2c-3e4e-4ace-9f09-02ee2ebf323b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/geekbrains/java2/lesson2/homework/Matrix.java" afterPath="$PROJECT_DIR$/src/geekbrains/java2/lesson2/homework/Matrix.java" />
     </list>
     <ignored path="beginJava_1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -66,8 +65,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson3/homework/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+            <state relative-caret-position="153">
+              <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1053,7 +1052,14 @@
       <option name="project" value="LOCAL" />
       <updated>1473854678580</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Начал делать домашнее задание к третьему уроку">
+      <created>1474375640757</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1474375640757</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1152,7 +1158,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="закончил задание 5" />
     <MESSAGE value="закончил задание 6" />
     <MESSAGE value="немного доделал задание 6" />
     <MESSAGE value="начал делать домашку к третьему уроку" />
@@ -1177,7 +1182,8 @@
     <MESSAGE value="Начал делать домашнее задание к 2 уроку курса Java2" />
     <MESSAGE value="сделал 1 и 2 пункты задания" />
     <MESSAGE value="Сделал домашнее задание ко второму уроку полностью" />
-    <option name="LAST_COMMIT_MESSAGE" value="Сделал домашнее задание ко второму уроку полностью" />
+    <MESSAGE value="Начал делать домашнее задание к третьему уроку" />
+    <option name="LAST_COMMIT_MESSAGE" value="Начал делать домашнее задание к третьему уроку" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1494,8 +1500,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson3/homework/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+        <state relative-caret-position="153">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
