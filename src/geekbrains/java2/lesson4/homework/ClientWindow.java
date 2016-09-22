@@ -53,7 +53,7 @@ public class ClientWindow extends JFrame {
         JPanel bottomPanel = new JPanel();
         bottomPanel.setLayout(new BorderLayout());
         JTextField textField = new JTextField();
-        textField.addActionListener(new ActionListener() {
+        final ActionListener sendText = new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 if (!textField.getText().equals("")) {
@@ -63,20 +63,11 @@ public class ClientWindow extends JFrame {
                     textField.requestFocus();
                 }
             }
-        });
+        }; //ActionListener для отправки текста, используется в текстовом поле и в кнопке
+        textField.addActionListener(sendText);
         JButton sendTextButton = new JButton("Send");
         sendTextButton.setMnemonic(KeyEvent.VK_ENTER);
-        sendTextButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                if (!textField.getText().equals("")) {
-                    mainChatText.append(textField.getText() + "\n");
-                    mainChatText.setCaretPosition((mainChatText.getDocument().getLength()));
-                    textField.setText("");
-                    textField.requestFocus();
-                }
-            }
-        });
+        sendTextButton.addActionListener(sendText);
         bottomPanel.add(textField, BorderLayout.CENTER);
         bottomPanel.add(sendTextButton, BorderLayout.EAST);
         add(bottomPanel, BorderLayout.SOUTH);

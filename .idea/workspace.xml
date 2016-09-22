@@ -37,13 +37,14 @@
       <file leaf-file-name="ClientWindow.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson4/homework/ClientWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="48" column="29" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
+            <state relative-caret-position="382">
+              <caret line="55" column="15" selection-start-line="55" selection-start-column="15" selection-end-line="55" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="class#1023:1176" expanded="false" />
                 <element signature="e#1119#1120#0" expanded="true" />
                 <element signature="e#1165#1166#0" expanded="true" />
+                <element signature="class#2359:2802" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -1015,7 +1016,14 @@
       <option name="project" value="LOCAL" />
       <updated>1474547040828</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="сделал оставшиеся основные элементы чта - основное окно с текстом, поле ввода текста пользователем, кнопка отправки текста">
+      <created>1474552679455</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1474552679455</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1104,7 +1112,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="1st comment" />
     <MESSAGE value="hello world" />
     <MESSAGE value="variableas" />
     <MESSAGE value="sout" />
@@ -1129,7 +1136,8 @@
     <MESSAGE value="немного по-другому реализовал инициализацию команд" />
     <MESSAGE value="по совету преподавателя прекратил заниматься не тем и вынес из классов Team и  Course все вложенные в них классы" />
     <MESSAGE value="Начал делать домашнее задание к 4 уроку. Запилил окошко и список верхнего меню" />
-    <option name="LAST_COMMIT_MESSAGE" value="Начал делать домашнее задание к 4 уроку. Запилил окошко и список верхнего меню" />
+    <MESSAGE value="сделал оставшиеся основные элементы чта - основное окно с текстом, поле ввода текста пользователем, кнопка отправки текста" />
+    <option name="LAST_COMMIT_MESSAGE" value="сделал оставшиеся основные элементы чта - основное окно с текстом, поле ввода текста пользователем, кнопка отправки текста" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1542,13 +1550,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson4/homework/ClientWindow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="48" column="29" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
+        <state relative-caret-position="382">
+          <caret line="55" column="15" selection-start-line="55" selection-start-column="15" selection-end-line="55" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="class#1023:1176" expanded="false" />
             <element signature="e#1119#1120#0" expanded="true" />
             <element signature="e#1165#1166#0" expanded="true" />
+            <element signature="class#2359:2802" expanded="false" />
           </folding>
         </state>
       </provider>
