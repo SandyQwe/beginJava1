@@ -9,7 +9,22 @@ import java.awt.event.KeyEvent;
 
 public class ClientWindow extends JFrame {
 
+    private JTextArea mainChatText = new JTextArea(); //Поле для вывода текста чата
+    private JTextField textField = new JTextField(); //Поле для ввода текста пользователем
+
     ClientWindow(){
+        final ActionListener sendText = new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                if (!textField.getText().equals("")) {
+                    mainChatText.append(textField.getText() + "\n");
+                    mainChatText.setCaretPosition(mainChatText.getDocument().getLength());
+                    textField.setText("");
+                    textField.requestFocus();
+                }
+            }
+        }; //ActionListener для отправки текста, используется в текстовом поле и в кнопке
+
         setTitle("Chat Client");
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setBounds(100, 100, 600, 600);
@@ -41,7 +56,6 @@ public class ClientWindow extends JFrame {
         add(mainMenu, BorderLayout.NORTH);
 
         //Основное окно чата, переписка
-        JTextArea mainChatText = new JTextArea();
         mainChatText.setBorder(new LineBorder(Color.DARK_GRAY, 1));
         mainChatText.setBackground(Color.WHITE);
         mainChatText.setEditable(false);
@@ -52,18 +66,6 @@ public class ClientWindow extends JFrame {
         //Нижняя часть окна, область для набора текста и кнопка отправки
         JPanel bottomPanel = new JPanel();
         bottomPanel.setLayout(new BorderLayout());
-        JTextField textField = new JTextField();
-        final ActionListener sendText = new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                if (!textField.getText().equals("")) {
-                    mainChatText.append(textField.getText() + "\n");
-                    mainChatText.setCaretPosition(mainChatText.getDocument().getLength());
-                    textField.setText("");
-                    textField.requestFocus();
-                }
-            }
-        }; //ActionListener для отправки текста, используется в текстовом поле и в кнопке
         textField.addActionListener(sendText);
         JButton sendTextButton = new JButton("Send");
         sendTextButton.setMnemonic(KeyEvent.VK_ENTER);
