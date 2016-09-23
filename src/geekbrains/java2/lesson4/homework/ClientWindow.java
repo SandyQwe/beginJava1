@@ -3,15 +3,14 @@ package geekbrains.java2.lesson4.homework;
 import javax.swing.*;
 import javax.swing.border.LineBorder;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.KeyEvent;
+import java.awt.event.*;
 import java.io.*;
 
 public class ClientWindow extends JFrame {
 
     private JTextArea mainChatText = new JTextArea(); //Поле для вывода текста чата
     private JTextField textField = new JTextField(); //Поле для ввода текста пользователем
+    private PrintWriter chatTextFile;
 
     ClientWindow(){
         final ActionListener sendText = new ActionListener() {
@@ -20,11 +19,10 @@ public class ClientWindow extends JFrame {
                 if (!textField.getText().equals("")) {
 //                    FileWriter chatTextFile = null;
                     try {
-                        FileWriter chatTextFile = new FileWriter("chatText.txt", true);
+                        chatTextFile = new PrintWriter(new FileWriter("chatText.txt", true), true);
                         chatTextFile.append(textField.getText());
                         chatTextFile.append("\n");
                         chatTextFile.flush();
-                        chatTextFile.close();
                     } catch (IOException e1) {
                         e1.printStackTrace();
                     }
@@ -84,6 +82,12 @@ public class ClientWindow extends JFrame {
         bottomPanel.add(sendTextButton, BorderLayout.EAST);
         add(bottomPanel, BorderLayout.SOUTH);
 
+        addWindowListener(new WindowAdapter() {
+            @Override
+            public void windowClosing(WindowEvent e) {
+                chatTextFile.close();
+            }
+        });
 
         setVisible(true);
     }
