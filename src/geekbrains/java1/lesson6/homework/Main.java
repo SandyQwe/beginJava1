@@ -25,7 +25,7 @@ public class Main {
             file2.close();
 
             //2. Написать программу, «склеивающую» эти файлы, то есть вначале идет текст из первого файла, потом текст из второго.
-            FileOutputStream file3 = new FileOutputStream(PATH + "file3.txt");
+            FileOutputStream file3 = new FileOutputStream(PATH + "file3.txt", true);
             FileInputStream input = new FileInputStream(PATH + "file1.txt");
             n = input.read();
             while (n != -1) {

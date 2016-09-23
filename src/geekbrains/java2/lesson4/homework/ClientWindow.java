@@ -6,6 +6,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
+import java.io.*;
 
 public class ClientWindow extends JFrame {
 
@@ -17,13 +18,23 @@ public class ClientWindow extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 if (!textField.getText().equals("")) {
+//                    FileWriter chatTextFile = null;
+                    try {
+                        FileWriter chatTextFile = new FileWriter("chatText.txt", true);
+                        chatTextFile.append(textField.getText());
+                        chatTextFile.append("\n");
+                        chatTextFile.flush();
+                        chatTextFile.close();
+                    } catch (IOException e1) {
+                        e1.printStackTrace();
+                    }
                     mainChatText.append(textField.getText() + "\n");
                     mainChatText.setCaretPosition(mainChatText.getDocument().getLength());
                     textField.setText("");
                     textField.requestFocus();
                 }
             }
-        }; //ActionListener для отправки текста, используется в текстовом поле и в кнопке
+        }; //ActionListener для отправки текста и записи его в файл, используется в текстовом поле и в кнопке
 
         setTitle("Chat Client");
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
@@ -61,7 +72,6 @@ public class ClientWindow extends JFrame {
         mainChatText.setEditable(false);
         JScrollPane mainChatScroll = new JScrollPane(mainChatText);
         add(mainChatScroll, BorderLayout.CENTER);
-        mainChatText.setText("Text");
 
         //Нижняя часть окна, область для набора текста и кнопка отправки
         JPanel bottomPanel = new JPanel();
