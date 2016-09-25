@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d30a2e2c-3e4e-4ace-9f09-02ee2ebf323b" name="Default" comment="">
+    <list default="true" id="d30a2e2c-3e4e-4ace-9f09-02ee2ebf323b" name="Default" comment="примерно разобрался с парсингом информации о погоде с помощью библиотеки парсирга Jsoup">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weather_sample.htm" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/beginJava_1.iml" afterPath="$PROJECT_DIR$/beginJava_1.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chatText.txt" afterPath="$PROJECT_DIR$/chatText.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Diary/TestParseHTML.java" afterPath="$PROJECT_DIR$/src/Diary/TestParseHTML.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Diary/WeatherEvent.java" afterPath="$PROJECT_DIR$/src/Diary/WeatherEvent.java" />
     </list>
     <ignored path="beginJava_1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -58,8 +59,8 @@
       <file leaf-file-name="TestParseHTML.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Diary/TestParseHTML.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="83" selection-start-line="19" selection-start-column="83" selection-end-line="19" selection-end-column="83" />
+            <state relative-caret-position="493">
+              <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -67,11 +68,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="weather_sample.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/weather_sample.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="218" selection-start-line="8" selection-start-column="218" selection-end-line="8" selection-end-column="218" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="WeatherEvent.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Diary/WeatherEvent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+            <state relative-caret-position="68">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -147,8 +158,8 @@
         <option value="$PROJECT_DIR$/src/geekbrains/java2/lesson3/homework/Main.java" />
         <option value="$PROJECT_DIR$/src/geekbrains/java2/lesson3/homework/PhoneBook.java" />
         <option value="$PROJECT_DIR$/src/geekbrains/java2/lesson3/homework/Test.java" />
-        <option value="$PROJECT_DIR$/src/Diary/TestParseHTML.java" />
         <option value="$PROJECT_DIR$/src/Diary/WeatherEvent.java" />
+        <option value="$PROJECT_DIR$/src/Diary/TestParseHTML.java" />
       </list>
     </option>
   </component>
@@ -739,13 +750,6 @@
       <option name="presentableId" value="Default" />
       <updated>1470677663371</updated>
     </task>
-    <task id="LOCAL-00001" summary="1st comment">
-      <created>1470678572719</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1470678572719</updated>
-    </task>
     <task id="LOCAL-00002" summary="hello world">
       <created>1470678851492</created>
       <option name="number" value="00002" />
@@ -1082,7 +1086,14 @@
       <option name="project" value="LOCAL" />
       <updated>1474379893003</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Начал делать дневник">
+      <created>1474806028392</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1474806028393</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1100,12 +1111,12 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32655245" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3169165" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24411134" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1181,8 +1192,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="доделал задание 2 (Усовершенствовать метод проверки победы(через циклы);)" />
-    <MESSAGE value="исправил ошибки в проверке диагонали слева снизу вправо вверх" />
     <MESSAGE value="начал делать 4 задание" />
     <MESSAGE value="вроде сделал 4 задание" />
     <MESSAGE value="исправил мелкую ошибку и протестировал разные варианты блокирования, работают" />
@@ -1206,7 +1215,9 @@
     <MESSAGE value="сделал первое задание" />
     <MESSAGE value="сделал второе задание" />
     <MESSAGE value="исправил недочеты" />
-    <option name="LAST_COMMIT_MESSAGE" value="исправил недочеты" />
+    <MESSAGE value="Начал делать дневник" />
+    <MESSAGE value="примерно разобрался с парсингом информации о погоде с помощью библиотеки парсирга Jsoup" />
+    <option name="LAST_COMMIT_MESSAGE" value="примерно разобрался с парсингом информации о погоде с помощью библиотеки парсирга Jsoup" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1237,20 +1248,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/geekbrains/java1/lesson4/homework/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/geekbrains/java1/lesson3/homework/NoughtsAndCrosses.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="173" column="0" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/geekbrains/java1/lesson5/homework/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1524,20 +1521,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$PROJECT_DIR$/jsoup-1.9.2.jar!/org/jsoup/select/Elements.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Diary/TestParseHTML.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="83" selection-start-line="19" selection-start-column="83" selection-end-line="19" selection-end-column="83" />
+        <state relative-caret-position="493">
+          <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/weather_sample.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="218" selection-start-line="8" selection-start-column="218" selection-end-line="8" selection-end-column="218" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Diary/WeatherEvent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        <state relative-caret-position="68">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
