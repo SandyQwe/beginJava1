@@ -9,6 +9,13 @@ import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 
+/*
+ документация к Jsoup - https://jsoup.org/cookbook/extracting-data/selector-syntax
+ погодный архив http://www.pogodaiklimat.ru/weather.php?id=28440&bday=1&fday=31&amonth=8&ayear=2016
+ ещё один погодный архив - http://pogoda-service.ru/archive_gsod.php
+
+ещё парсеры (ссылки внизу) - http://jericho.htmlparser.net/docs/index.html
+ */
 
 public class TestParseHTML {
     public static void main(String[] args) {

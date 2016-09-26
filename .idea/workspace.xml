@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d30a2e2c-3e4e-4ace-9f09-02ee2ebf323b" name="Default" comment="примерно разобрался с парсингом информации о погоде с помощью библиотеки парсирга Jsoup">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/weather_sample.htm" />
+    <list default="true" id="d30a2e2c-3e4e-4ace-9f09-02ee2ebf323b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Diary/TestParseHTML.java" afterPath="$PROJECT_DIR$/src/Diary/TestParseHTML.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Diary/WeatherEvent.java" afterPath="$PROJECT_DIR$/src/Diary/WeatherEvent.java" />
     </list>
     <ignored path="beginJava_1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestParseHTML.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TestParseHTML.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Diary/TestParseHTML.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+            <state relative-caret-position="62">
+              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,7 +76,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WeatherEvent.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WeatherEvent.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Diary/WeatherEvent.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
@@ -750,13 +748,6 @@
       <option name="presentableId" value="Default" />
       <updated>1470677663371</updated>
     </task>
-    <task id="LOCAL-00002" summary="hello world">
-      <created>1470678851492</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1470678851492</updated>
-    </task>
     <task id="LOCAL-00003" summary="variableas">
       <created>1470680661700</created>
       <option name="number" value="00003" />
@@ -1093,7 +1084,14 @@
       <option name="project" value="LOCAL" />
       <updated>1474806028393</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="примерно разобрался с парсингом информации о погоде с помощью библиотеки парсирга Jsoup">
+      <created>1474828584494</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1474828584494</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1529,16 +1527,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Diary/TestParseHTML.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/weather_sample.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1552,6 +1540,16 @@
         <state relative-caret-position="68">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Diary/TestParseHTML.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
