@@ -41,4 +41,20 @@ public class WeatherEvent {
     private float snow; //Снежный покров - Высота снежного покрова, см.
                         // При наведении курсора мыши на число - состояние снежного покрова и степень покрытия местности в баллах.
 
+
+    public void setTime(int time) {
+        this.time = time;
+    }
+
+    public void setDate(Date date) {
+        this.date = date;
+    }
+
+    public void setWindDirection(String windDirection) {
+        this.windDirection = windDirection;
+    }
+
+    public void setWindStrenght(int windStrenght) {
+        this.windStrenght = windStrenght;
+    }
 }
