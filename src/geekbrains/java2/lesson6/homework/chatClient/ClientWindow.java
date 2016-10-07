@@ -1,4 +1,5 @@
-package geekbrains.java2.lesson4.homework;
+package geekbrains.java2.lesson6.homework.chatClient;
+
 
 import javax.swing.*;
 import javax.swing.border.LineBorder;
@@ -10,14 +11,13 @@ class ClientWindow extends JFrame {
 
     private JTextArea mainChatText = new JTextArea(); //Поле для вывода текста чата
     private JTextField textField = new JTextField(); //Поле для ввода текста пользователем
-    private PrintWriter chatTextFile;
+    private PrintWriter chatTextFile = null;
 
     ClientWindow(){
         final ActionListener sendText = new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 if (!textField.getText().equals("")) {
-//                    FileWriter chatTextFile = null;
                     try {
                         chatTextFile = new PrintWriter(new FileWriter("chatText.txt", true), true);
                         chatTextFile.append(textField.getText());
