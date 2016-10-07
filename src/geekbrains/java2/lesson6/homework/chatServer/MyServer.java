@@ -6,13 +6,13 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.ArrayList;
 
-public class myServer {
+public class MyServer {
 
     private ServerSocket serv = null;
     private final int PORT = 8189;
     private ArrayList<ClientHandler> list;
 
-    public myServer(){
+    public MyServer(){
 
         try {
             list = new ArrayList<>();

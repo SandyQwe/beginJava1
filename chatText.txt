@@ -100,3 +100,12 @@ qq
 qq
 qq
 hi
+/auth login6 pass6
+hi
+qq
+qwe
+bye
+/end
+л
+ол
+лопрл

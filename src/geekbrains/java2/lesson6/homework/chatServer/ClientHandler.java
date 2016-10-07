@@ -9,11 +9,11 @@ import java.net.Socket;
 
 public class ClientHandler implements Runnable {
     private Socket sock;
-    private myServer owner;
+    private MyServer owner;
     private DataInputStream in;
     private DataOutputStream out;
 
-    public ClientHandler(myServer owner, Socket sock) {
+    public ClientHandler(MyServer owner, Socket sock) {
         this.sock = sock;
         this.owner = owner;
         try {
