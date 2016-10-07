@@ -6,8 +6,13 @@ import javax.swing.border.LineBorder;
 import java.awt.*;
 import java.awt.event.*;
 import java.io.*;
+import java.net.Socket;
 
 class ClientWindow extends JFrame {
+
+    Socket sock = null;
+    DataInputStream in = null;
+    DataOutputStream out = null;
 
     private JTextArea mainChatText = new JTextArea(); //Поле для вывода текста чата
     private JTextField textField = new JTextField(); //Поле для ввода текста пользователем
@@ -28,8 +33,9 @@ class ClientWindow extends JFrame {
                     }
                     mainChatText.append(textField.getText() + "\n");
                     mainChatText.setCaretPosition(mainChatText.getDocument().getLength());
-                    textField.setText("");
-                    textField.requestFocus();
+                    sendMsg();
+//                    textField.setText("");
+//                    textField.requestFocus();
                 }
             }
         }; //ActionListener для отправки текста и записи его в файл, используется в текстовом поле и в кнопке
@@ -82,14 +88,63 @@ class ClientWindow extends JFrame {
         bottomPanel.add(sendTextButton, BorderLayout.EAST);
         add(bottomPanel, BorderLayout.SOUTH);
 
+        connect();
+
         addWindowListener(new WindowAdapter() {
             @Override
             public void windowClosing(WindowEvent e) {
+                super.windowClosed(e);
                 chatTextFile.close();
+                disconnect();
             }
         });
 
         setVisible(true);
+    }
+
+    public void sendMsg() {
+        String str = textField.getText();
+        textField.setText("");
+        textField.requestFocus();
+        try {
+            out.writeUTF(str);
+            out.flush();
+        } catch (IOException e) {
+            JOptionPane.showMessageDialog(null, "Connection error...");
+            e.printStackTrace();
+        }
+    }
+
+    public void connect() {
+        try {
+            sock = new Socket("localhost", 8189);
+            in = new DataInputStream(sock.getInputStream());
+            out = new DataOutputStream(sock.getOutputStream());
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        new Thread(() -> {
+            try {
+                while (true) {
+                    String str = in.readUTF();
+                    if(str != null) {
+                        mainChatText.append(str);
+                        mainChatText.append("\n");
+                    }
+                }
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }).start();
+
+    }
+
+    public void disconnect() {
+        try {
+            sock.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
 }
