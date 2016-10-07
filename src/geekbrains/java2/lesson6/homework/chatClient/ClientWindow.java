@@ -117,7 +117,7 @@ class ClientWindow extends JFrame {
 
     public void connect() {
         try {
-            sock = new Socket("localhost", 8189);
+            sock = new Socket("83.221.205.67", 8189);
             in = new DataInputStream(sock.getInputStream());
             out = new DataOutputStream(sock.getOutputStream());
         } catch (IOException e) {
