@@ -27,6 +27,19 @@ public class SQLHandler {
         return null;
     }
 
+    public static String changeNick(String newNick, String nick) {
+        try {
+            ResultSet rs = stmt.executeQuery("SELECT id FROM test WHERE nick = '" + nick + "'");
+            rs.next();
+            int id = rs.getInt(1);
+            stmt.execute("UPDATE test SET nick = '" + newNick + "' WHERE id = " + id + ";");
+            return newNick; //если не получилось сменить ник из-за exception, то ник не меняется
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return nick;
+    }
+
     public static void disconnect() {
         try {
             conn.close();

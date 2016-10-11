@@ -109,3 +109,37 @@ bye
 л
 ол
 лопрл
+/auth ligin1 pass1
+/auth login1 pass1
+Connected to server!
+hello
+/changenick newnick1
+hello
+/auth login1 pass1
+Connected to server!
+hi
+/auth login2 pass2
+hi
+/auth login1 pass1
+hi
+/auth login5 pass5
+hi
+/changenick qwerty5
+hi
+/auth login5 pass5
+Connected to server!
+hi
+/changenick gogo
+/auth login6 pass6
+Connected to server!
+hi
+/changenick privet
+/auth login8 pass8
+Connected to server!
+go
+/changenick fff
+/auth login4 pass4
+Connected to server!
+hhh
+/changenick jjjj
+fo

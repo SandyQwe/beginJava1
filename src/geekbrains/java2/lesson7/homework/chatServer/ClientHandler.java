@@ -30,23 +30,14 @@ public class ClientHandler implements Runnable {
         try {
             while (true) {
                 String str = in.readUTF();
-                if (str != null && str.startsWith("/auth")) { // /auth login1 pass1
-                    String login = str.split(" ")[1];
-                    String pass = str.split(" ")[2];
-                    String user = SQLHandler.getNickByLoginPass(login, pass);
-                    if (user != null) {
-                        nick = user;
-                        sendMessage("abcd");
-                        break;
-                    } else sendMessage("Auth error");
-                }
-            }
-            while (true) {
-                String str = in.readUTF();
                 if (str != null) {
                     if (str.equals("/end")) break;
-                    System.out.println(nick + ": " + str);
-                    owner.broadCastMessage(nick, str);
+                    if (str.startsWith("/")) serviceCommandHandler(str);
+                    else {
+                        if (!nick.equals(""))
+                        System.out.println(nick + ": " + str);
+                        owner.broadCastMessage(nick, str);
+                    }
                 }
             }
         } catch (IOException e) {
@@ -68,6 +59,31 @@ public class ClientHandler implements Runnable {
             out.flush();
         } catch (IOException e) {
             e.printStackTrace();
+        }
+    }
+
+    private void serviceCommandHandler (String command){
+        String[] commands = command.split(" ");
+        switch (commands[0]){
+            case "/auth":{
+                String login = commands[1];
+                String pass = commands[2];
+                String user = SQLHandler.getNickByLoginPass(login, pass);
+                if (user != null) {
+                    nick = user;
+                    sendMessage("/auth complete");
+                } else sendMessage("Auth error");
+                break;
+            }
+            case "/changenick":{
+                String newNick = commands[1];
+                nick = SQLHandler.changeNick(newNick, nick);
+                break;
+            }
+//            case "/end":
+            default:{
+                sendMessage("Unknown command");
+            }
         }
 
     }
