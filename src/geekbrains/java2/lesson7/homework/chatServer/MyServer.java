@@ -1,4 +1,5 @@
-package geekbrains.java2.lesson7.homework.server;
+package geekbrains.java2.lesson7.homework.chatServer;
+
 
 import java.io.IOException;
 import java.net.ServerSocket;
@@ -6,11 +7,13 @@ import java.net.Socket;
 import java.util.ArrayList;
 
 public class MyServer {
+
     private ServerSocket serv = null;
     private final int PORT = 8189;
     private ArrayList<ClientHandler> list;
 
-    public MyServer() {
+    public MyServer(){
+
         try {
             list = new ArrayList<>();
             serv = new ServerSocket(PORT);
@@ -19,7 +22,7 @@ public class MyServer {
             while(true) {
                 Socket sock = serv.accept();
                 System.out.println("Client connected");
-                broadcastMsg("Server", "New client connected...");
+                broadCastMessage("server", "New client connected...");
                 ClientHandler ch = new ClientHandler(this, sock);
                 list.add(ch);
                 new Thread(ch).start();
@@ -35,13 +38,13 @@ public class MyServer {
         }
     }
 
-    public synchronized void broadcastMsg(String nick, String msg) {
-        for(ClientHandler o : list) {
-            o.sendMsg(nick + ": " + msg);
+    public synchronized void broadCastMessage(String nick, String message){
+        for (ClientHandler o : list){
+            o.sendMessage(nick + ": " + message);
         }
     }
 
-    public synchronized void unsubscribe(ClientHandler o) {
+    public synchronized void unsubscribe (ClientHandler o){
         list.remove(o);
     }
 }

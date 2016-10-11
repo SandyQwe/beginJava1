@@ -1,4 +1,4 @@
-package geekbrains.java2.lesson7.homework.server;
+package geekbrains.java2.lesson7.homework.chatServer;
 
 import java.sql.*;
 

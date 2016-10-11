@@ -1,4 +1,5 @@
-package geekbrains.java2.lesson7.homework.server;
+package geekbrains.java2.lesson7.homework.chatServer;
+
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
@@ -35,9 +36,9 @@ public class ClientHandler implements Runnable {
                     String user = SQLHandler.getNickByLoginPass(login, pass);
                     if (user != null) {
                         nick = user;
-                        sendMsg("abcd");
+                        sendMessage("abcd");
                         break;
-                    } else sendMsg("Auth error");
+                    } else sendMessage("Auth error");
                 }
             }
             while (true) {
@@ -45,14 +46,14 @@ public class ClientHandler implements Runnable {
                 if (str != null) {
                     if (str.equals("/end")) break;
                     System.out.println(nick + ": " + str);
-                    owner.broadcastMsg(nick, str);
+                    owner.broadCastMessage(nick, str);
                 }
             }
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
             try {
-                owner.broadcastMsg("server", "Client disconnected");
+                owner.broadCastMessage("server", "Client disconnected...");
                 owner.unsubscribe(this);
                 sock.close();
             } catch (IOException e) {
@@ -61,12 +62,13 @@ public class ClientHandler implements Runnable {
         }
     }
 
-    public void sendMsg(String msg) {
+    public void sendMessage (String message) {
         try {
-            out.writeUTF(msg);
+            out.writeUTF(message);
             out.flush();
         } catch (IOException e) {
             e.printStackTrace();
         }
+
     }
 }
