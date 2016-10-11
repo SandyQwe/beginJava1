@@ -10,10 +10,10 @@ import java.net.Socket;
 
 class ClientWindow extends JFrame {
 
-    Socket sock = null;
-    DataInputStream in = null;
-    DataOutputStream out = null;
-    boolean auth = false;
+    private Socket sock = null;
+    private DataInputStream in = null;
+    private DataOutputStream out = null;
+    private boolean auth = false;
     private JTextArea mainChatText = new JTextArea(); //Поле для вывода текста чата
     private JTextField textField = new JTextField(); //Поле для ввода текста пользователем
     private PrintWriter chatTextFile = null;
@@ -83,6 +83,7 @@ class ClientWindow extends JFrame {
         bottomPanel.add(textField, BorderLayout.CENTER);
         bottomPanel.add(sendTextButton, BorderLayout.EAST);
         add(bottomPanel, BorderLayout.SOUTH);
+        textField.requestFocus();
 
         connect();
 
@@ -99,7 +100,7 @@ class ClientWindow extends JFrame {
         setVisible(true);
     }
 
-    public void sendMsg() {
+    private void sendMsg() {
         String str = textField.getText();
         textField.setText("");
         textField.requestFocus();
@@ -112,7 +113,7 @@ class ClientWindow extends JFrame {
         }
     }
 
-    public void sendAuthMsg(String login, String pass) {
+    private void sendAuthMsg(String login, String pass) {
         try {
             out.writeUTF("/auth " + login + " " + pass);
             out.flush();
@@ -141,7 +142,6 @@ class ClientWindow extends JFrame {
                             break;
                         }
                     }
-
                     while (true) {
                         String str = in.readUTF();
                         if (str != null) {
@@ -151,13 +151,15 @@ class ClientWindow extends JFrame {
                         }
                     }
                 } catch (IOException e) {
-                    e.printStackTrace();
+                    mainChatText.append("Session closed...");
+                    mainChatText.setCaretPosition(mainChatText.getDocument().getLength());
+//                    e.printStackTrace();
                 }
             }).start();
         }
     }
 
-    public void disconnect() {
+    private void disconnect() {
         try {
             sock.close();
         } catch (IOException e) {
@@ -165,12 +167,17 @@ class ClientWindow extends JFrame {
         }
     }
 
-    public void printMsg (String message){
-        chatTextFile.append(message);
-        chatTextFile.append("\n");
-        chatTextFile.flush();
-        mainChatText.append(message + "\n");
-        mainChatText.setCaretPosition(mainChatText.getDocument().getLength());
+    private void printMsg (String message){
+        if (auth) {
+            chatTextFile.append(message);
+            chatTextFile.append("\n");
+            chatTextFile.flush();
+            mainChatText.append(message + "\n");
+            mainChatText.setCaretPosition(mainChatText.getDocument().getLength());
+        }  else {
+            mainChatText.append("Authorisation needed...\n");
+            mainChatText.setCaretPosition(mainChatText.getDocument().getLength());
+        }
     }
 
 }

@@ -35,7 +35,7 @@ public class ClientHandler implements Runnable {
                     if (str.startsWith("/")) serviceCommandHandler(str);
                     else {
                         if (!nick.equals(""))
-                        System.out.println(nick + ": " + str);
+                            System.out.println(nick + ": " + str);
                         owner.broadCastMessage(nick, str);
                     }
                 }
@@ -43,17 +43,11 @@ public class ClientHandler implements Runnable {
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
-            try {
-                owner.broadCastMessage("server", "Client disconnected...");
-                owner.unsubscribe(this);
-                sock.close();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
+            disconnect();
         }
     }
 
-    public void sendMessage (String message) {
+    public void sendMessage(String message) {
         try {
             out.writeUTF(message);
             out.flush();
@@ -62,10 +56,10 @@ public class ClientHandler implements Runnable {
         }
     }
 
-    private void serviceCommandHandler (String command){
+    private void serviceCommandHandler(String command) {
         String[] commands = command.split(" ");
-        switch (commands[0]){
-            case "/auth":{
+        switch (commands[0]) {
+            case "/auth": {
                 String login = commands[1];
                 String pass = commands[2];
                 String user = SQLHandler.getNickByLoginPass(login, pass);
@@ -75,16 +69,29 @@ public class ClientHandler implements Runnable {
                 } else sendMessage("Auth error");
                 break;
             }
-            case "/changenick":{
+            case "/changenick": {
                 String newNick = commands[1];
                 nick = SQLHandler.changeNick(newNick, nick);
                 break;
             }
-//            case "/end":
-            default:{
+            case "/end": {
+                sendMessage("end");
+                disconnect();
+                break;
+            }
+            default: {
                 sendMessage("Unknown command");
             }
         }
+    }
 
+    private void disconnect(){
+        owner.broadCastMessage("server", "Client "+ nick +" disconnected...");
+        owner.unsubscribe(this);
+        try {
+            sock.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }
