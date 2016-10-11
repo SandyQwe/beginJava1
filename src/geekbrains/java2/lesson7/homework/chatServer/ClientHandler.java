@@ -71,7 +71,12 @@ public class ClientHandler implements Runnable {
             }
             case "/changenick": {
                 String newNick = commands[1];
-                nick = SQLHandler.changeNick(newNick, nick);
+                if (SQLHandler.changeNick(newNick, nick)) {
+                    nick = newNick;
+                    owner.broadCastMessage("server", "User " + nick + " change nickname to " + newNick);
+                } else {
+                    sendMessage("Nickname " + newNick + " already exist, nickname does not changed.");
+                }
                 break;
             }
             case "/end": {
@@ -85,8 +90,8 @@ public class ClientHandler implements Runnable {
         }
     }
 
-    private void disconnect(){
-        owner.broadCastMessage("server", "Client "+ nick +" disconnected...");
+    private void disconnect() {
+        owner.broadCastMessage("server", "Client " + nick + " disconnected...");
         owner.unsubscribe(this);
         try {
             sock.close();
