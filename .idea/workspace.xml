@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d30a2e2c-3e4e-4ace-9f09-02ee2ebf323b" name="Default" comment="">
+    <list default="true" id="d30a2e2c-3e4e-4ace-9f09-02ee2ebf323b" name="Default" comment="Добавил файлы из того, что сделали на 7 уроке">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlite-jdbc-3.8.11.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sqlite_jdbc_3_8_11_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/geekbrains/java2/lesson7/homework/client/MainClass.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/geekbrains/java2/lesson7/homework/client/MyWindow.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/geekbrains/java2/lesson7/homework/server/ClientHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/geekbrains/java2/lesson7/homework/server/MainClass.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/geekbrains/java2/lesson7/homework/server/MyServer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/geekbrains/java2/lesson7/homework/server/SQLHandler.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chatText.txt" afterPath="$PROJECT_DIR$/chatText.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/geekbrains/java2/lesson6/homework/chatServer/ClientHandler.java" afterPath="$PROJECT_DIR$/src/geekbrains/java2/lesson6/homework/chatServer/ClientHandler.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/geekbrains/java2/lesson6/homework/chatServer/myServer.java" afterPath="$PROJECT_DIR$/src/geekbrains/java2/lesson6/homework/chatServer/MyServer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/beginJava_1.iml" afterPath="$PROJECT_DIR$/beginJava_1.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/geekbrains/java2/lesson5/homework/Main.java" afterPath="$PROJECT_DIR$/src/geekbrains/java2/lesson5/homework/Main.java" />
     </list>
     <ignored path="beginJava_1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,100 +34,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson4/homework/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClientWindow.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson4/homework/ClientWindow.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding>
-                <element signature="class#2215:2368" expanded="false" />
-                <element signature="e#2311#2312#0" expanded="false" />
-                <element signature="e#2357#2358#0" expanded="false" />
-                <element signature="e#3865#3866#0" expanded="false" />
-                <element signature="e#3917#3918#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClientWindow.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson6/homework/chatClient/ClientWindow.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="119" column="44" selection-start-line="119" selection-start-column="44" selection-end-line="119" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyServer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson6/homework/chatServer/MyServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1264#1265#0" expanded="true" />
-                <element signature="e#1294#1295#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClientHandler.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson6/homework/chatServer/ClientHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="35" column="51" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainClass.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson6/homework/chatServer/MainClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson6/homework/chatClient/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-              <folding>
-                <element signature="e#119#120#0" expanded="true" />
-                <element signature="e#181#182#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TestParseHTML.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Diary/TestParseHTML.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+            <state relative-caret-position="374">
+              <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -130,8 +49,100 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson5/homework/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            <state relative-caret-position="187">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClientWindow.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson6/homework/chatClient/ClientWindow.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyWindow.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson7/homework/client/MyWindow.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1694">
+              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClientHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson7/homework/server/ClientHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainClass.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson7/homework/server/MainClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <folding>
+                <element signature="e#150#151#0" expanded="true" />
+                <element signature="e#198#199#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyServer.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson7/homework/server/MyServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="479">
+              <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SQLHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson7/homework/server/SQLHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainClass.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson7/homework/client/MainClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding>
+                <element signature="e#119#120#0" expanded="true" />
+                <element signature="e#162#163#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WeatherEvent.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Diary/WeatherEvent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -142,13 +153,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -158,44 +169,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/geekbrains/java1/lesson1/first_program/HelloWorld.java" />
-        <option value="$PROJECT_DIR$/src/geekbrains/java1/lesson1/types/Types.java" />
-        <option value="$PROJECT_DIR$/src/geekbrains/java1/lesson1/homework/Main.java" />
-        <option value="$PROJECT_DIR$/src/geekbrains/java1/lesson1/homework/HomeWork.java" />
-        <option value="$PROJECT_DIR$/src/geekbrains/java1/lesson3/lesson/Main.java" />
-        <option value="$PROJECT_DIR$/src/geekbrains/java1/lesson3/lesson/NoughtsAndCrosses.java" />
+        <option value="$PROJECT_DIR$/src/geekbrains/java1/lesson3/homework/Main.java" />
+        <option value="$PROJECT_DIR$/src/geekbrains/java1/lesson3/homework/Cell.java" />
         <option value="$PROJECT_DIR$/src/geekbrains/java1/lesson3/homework/NoughtsAndCrosses.java" />
-        <option value="$PROJECT_DIR$/src/geekbrains/java1/lesson4/homework/Main.java" />
-        <option value="$PROJECT_DIR$/src/geekbrains/java1/lesson4/homework/Employee.java" />
-        <option value="$PROJECT_DIR$/src/geekbrains/java2/lesson1/homework/Obstacle.java" />
-        <option value="$PROJECT_DIR$/src/geekbrains/java2/lesson1/homework/Cross.java" />
-        <option value="$PROJECT_DIR$/src/geekbrains/java2/lesson1/homework/Wall.java" />
-        <option value="$PROJECT_DIR$/src/geekbrains/java2/lesson1/homework/Water.java" />
-        <option value="$PROJECT_DIR$/src/geekbrains/java2/lesson1/homework/Sportsman.java" />
-        <option value="$PROJECT_DIR$/src/geekbrains/java2/lesson1/homework/Transport.java" />
+        <option value="$PROJECT_DIR$/src/geekbrains/java1/lesson5/lesson/Main.java" />
+        <option value="$PROJECT_DIR$/src/geekbrains/java1/lesson5/homework/animals/Aminals.java" />
+        <option value="$PROJECT_DIR$/src/geekbrains/java1/lesson5/homework/animals/Animals.java" />
+        <option value="$PROJECT_DIR$/src/geekbrains/java1/lesson5/homework/animals/Cat.java" />
+        <option value="$PROJECT_DIR$/src/geekbrains/java1/lesson5/homework/animals/Dog.java" />
+        <option value="$PROJECT_DIR$/src/geekbrains/java1/lesson5/homework/animals/Horse.java" />
+        <option value="$PROJECT_DIR$/src/geekbrains/java1/lesson5/homework/Main.java" />
+        <option value="$PROJECT_DIR$/src/geekbrains/java1/lesson6/homework/Main.java" />
+        <option value="$PROJECT_DIR$/src/geekbrains/java1/lesson7/noughts_and_crosses/StartNewGameWindow.java" />
+        <option value="$PROJECT_DIR$/src/geekbrains/java1/lesson7/noughts_and_crosses/MainClass.java" />
+        <option value="$PROJECT_DIR$/src/geekbrains/java1/lesson7/noughts_and_crosses/Map.java" />
+        <option value="$PROJECT_DIR$/src/geekbrains/java1/lesson7/noughts_and_crosses/GameWindow.java" />
+        <option value="$PROJECT_DIR$/src/geekbrains/java2/lesson1/homework/Tetris.java" />
         <option value="$PROJECT_DIR$/src/geekbrains/java2/lesson1/homework/Cat.java" />
+        <option value="$PROJECT_DIR$/src/geekbrains/java2/lesson1/homework/Cross.java" />
         <option value="$PROJECT_DIR$/src/geekbrains/java2/lesson1/homework/Dog.java" />
         <option value="$PROJECT_DIR$/src/geekbrains/java2/lesson1/homework/Horse.java" />
         <option value="$PROJECT_DIR$/src/geekbrains/java2/lesson1/homework/Human.java" />
         <option value="$PROJECT_DIR$/src/geekbrains/java2/lesson1/homework/Moto.java" />
+        <option value="$PROJECT_DIR$/src/geekbrains/java2/lesson1/homework/Obstacle.java" />
+        <option value="$PROJECT_DIR$/src/geekbrains/java2/lesson1/homework/Wall.java" />
+        <option value="$PROJECT_DIR$/src/geekbrains/java2/lesson1/homework/Water.java" />
         <option value="$PROJECT_DIR$/src/geekbrains/java2/lesson1/homework/Animal.java" />
-        <option value="$PROJECT_DIR$/src/geekbrains/java2/lesson1/homework/Team.java" />
+        <option value="$PROJECT_DIR$/src/geekbrains/java2/lesson1/homework/Sportsman.java" />
         <option value="$PROJECT_DIR$/src/geekbrains/java2/lesson1/homework/MainClass.java" />
         <option value="$PROJECT_DIR$/src/geekbrains/java2/lesson1/homework/Course.java" />
-        <option value="$PROJECT_DIR$/src/geekbrains/java2/lesson4/homework/Main.java" />
-        <option value="$PROJECT_DIR$/src/geekbrains/java1/lesson6/homework/Main.java" />
-        <option value="$PROJECT_DIR$/chatText.txt" />
+        <option value="$PROJECT_DIR$/src/geekbrains/java2/lesson1/homework/Transport.java" />
+        <option value="$PROJECT_DIR$/src/geekbrains/java2/lesson1/homework/Team.java" />
+        <option value="$PROJECT_DIR$/src/Tetris/Tetris.java" />
+        <option value="$PROJECT_DIR$/src/Games/GameOfLife.java" />
+        <option value="$PROJECT_DIR$/src/Games/Tetris.java" />
+        <option value="$PROJECT_DIR$/src/geekbrains/java2/lesson2/homework/IllegalSizeException.java" />
+        <option value="$PROJECT_DIR$/src/geekbrains/java2/lesson2/homework/IllegalMatrixException.java" />
+        <option value="$PROJECT_DIR$/src/geekbrains/java2/lesson2/homework/Matrix.java" />
+        <option value="$PROJECT_DIR$/src/geekbrains/java2/lesson2/homework/Main.java" />
+        <option value="$PROJECT_DIR$/src/geekbrains/java2/lesson2/homework/Test.java" />
+        <option value="$PROJECT_DIR$/src/geekbrains/java2/lesson3/homework/Memo.java" />
+        <option value="$PROJECT_DIR$/src/geekbrains/java2/lesson3/homework/Main.java" />
+        <option value="$PROJECT_DIR$/src/geekbrains/java2/lesson3/homework/PhoneBook.java" />
+        <option value="$PROJECT_DIR$/src/geekbrains/java2/lesson3/homework/Test.java" />
         <option value="$PROJECT_DIR$/src/Diary/WeatherEvent.java" />
         <option value="$PROJECT_DIR$/src/Diary/TestParseHTML.java" />
-        <option value="$PROJECT_DIR$/src/geekbrains/java2/lesson4/homework/ClientWindow.java" />
-        <option value="$PROJECT_DIR$/src/geekbrains/java2/lesson6/homework/chatClient/MainClass.java" />
-        <option value="$PROJECT_DIR$/src/geekbrains/java2/lesson6/homework/chatClient/MyWindow.java" />
-        <option value="$PROJECT_DIR$/src/geekbrains/java2/lesson6/homework/chatClient/Main.java" />
-        <option value="$PROJECT_DIR$/src/geekbrains/java2/lesson6/homework/chatClient/ClientWindow.java" />
-        <option value="$PROJECT_DIR$/src/geekbrains/java2/lesson6/homework/chatServer/MainClass.java" />
-        <option value="$PROJECT_DIR$/src/geekbrains/java2/lesson6/homework/chatServer/ClientHandler.java" />
-        <option value="$PROJECT_DIR$/src/geekbrains/java2/lesson6/homework/chatServer/myServer.java" />
-        <option value="$PROJECT_DIR$/src/geekbrains/java2/lesson6/homework/chatServer/MyServer.java" />
+        <option value="$PROJECT_DIR$/src/geekbrains/java2/lesson5/homework/Main.java" />
+        <option value="$PROJECT_DIR$/src/geekbrains/java2/lesson7/homework/client/MainClass.java" />
+        <option value="$PROJECT_DIR$/src/geekbrains/java2/lesson7/homework/server/ClientHandler.java" />
+        <option value="$PROJECT_DIR$/src/geekbrains/java2/lesson7/homework/client/MyWindow.java" />
+        <option value="$PROJECT_DIR$/src/geekbrains/java2/lesson7/homework/server/MyServer.java" />
+        <option value="$PROJECT_DIR$/src/geekbrains/java2/lesson7/homework/server/SQLHandler.java" />
       </list>
     </option>
   </component>
@@ -203,7 +227,7 @@
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
-    <option name="height" value="1176" />
+    <option name="height" value="1066" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -236,27 +260,87 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="beginJava1" />
+              <option name="myItemId" value="beginJava_1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="beginJava1" />
+              <option name="myItemId" value="beginJava_1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="beginJava1" />
+              <option name="myItemId" value="beginJava_1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="beginJava1" />
+              <option name="myItemId" value="beginJava_1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="beginJava1" />
+              <option name="myItemId" value="beginJava_1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geekbrains" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="homework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="beginJava_1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="beginJava_1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geekbrains" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="homework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="beginJava_1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="beginJava_1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -282,11 +366,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="beginJava1" />
+              <option name="myItemId" value="beginJava_1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="beginJava1" />
+              <option name="myItemId" value="beginJava_1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -312,11 +396,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="beginJava1" />
+              <option name="myItemId" value="beginJava_1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="beginJava1" />
+              <option name="myItemId" value="beginJava_1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -334,11 +418,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="beginJava1" />
+              <option name="myItemId" value="beginJava_1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="beginJava1" />
+              <option name="myItemId" value="beginJava_1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -349,66 +433,18 @@
               <option name="myItemId" value="geekbrains" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="homework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="beginJava1" />
+              <option name="myItemId" value="beginJava_1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="beginJava1" />
+              <option name="myItemId" value="beginJava_1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="geekbrains" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="beginJava1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="beginJava1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="beginJava1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="beginJava1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Diary" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -418,26 +454,146 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/geekbrains/java2/lesson6/homework/chatServer" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/sqlite-jdbc-3.8.11.2.jar!/" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Java\_Projects\beginJava1\src\geekbrains\java2\lesson6\homework\chatClient" />
-      <recent name="D:\Java\_Projects\beginJava1\src\geekbrains\java2\lesson6\homework\chatServer" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Java\_Projects\beginJava1\" />
+      <recent name="C:\java\_Projects\beginJava_1\src\geekbrains\java2\lesson7\homework" />
+      <recent name="C:\java\_Projects\beginJava_1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
-    <configuration default="false" name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/beginJava_1.iml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/chatText.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/geekbrains/java2/lesson4/homework/ClientWindow.java</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/geekbrains/java2/lesson6/homework/chatClient/ClientWindow.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/geekbrains/java2/lesson6/homework/chatClient/Main.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/geekbrains/java2/lesson6/homework/chatServer/ClientHandler.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/geekbrains/java2/lesson6/homework/chatServer/MainClass.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/geekbrains/java2/lesson6/homework/chatServer/MyServer.java</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration default="false" name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="geekbrains.java2.lesson1.homework.*" />
+          <option name="PATTERN" value="geekbrains.java2.lesson3.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="geekbrains.java2.lesson1.homework.MainClass" />
+      <option name="MAIN_CLASS_NAME" value="geekbrains.java2.lesson3.homework.Main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -450,7 +606,27 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="geekbrains.java2.lesson3.homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="geekbrains.java2.lesson3.homework.Test" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="beginJava_1" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="geekbrains.java2.lesson4.homework.*" />
@@ -490,34 +666,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="geekbrains.java2.lesson6.homework.chatServer.*" />
+          <option name="PATTERN" value="geekbrains.java2.lesson5.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="geekbrains.java2.lesson6.homework.chatServer.MainClass" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="beginJava_1" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="geekbrains.java2.lesson6.homework.chatClient.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="geekbrains.java2.lesson6.homework.chatClient.Main" />
+      <option name="MAIN_CLASS_NAME" value="geekbrains.java2.lesson5.homework.Main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -775,19 +931,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.MainClass" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="2" class="java.lang.String" itemvalue="Application.TestParseHTML" />
-      <item index="3" class="java.lang.String" itemvalue="Application.MainClass" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Main (1)" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Main (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Test (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Main (2)" />
+      <item index="3" class="java.lang.String" itemvalue="Application.TestParseHTML" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Main (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Application.MainClass" />
-        <item index="2" class="java.lang.String" itemvalue="Application.TestParseHTML" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="4" class="java.lang.String" itemvalue="Application.MainClass" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="1" class="java.lang.String" itemvalue="Application.TestParseHTML" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Main (2)" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Test (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -804,48 +960,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1470677663371</updated>
-    </task>
-    <task id="LOCAL-00001" summary="1st comment">
-      <created>1470678572719</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1470678572719</updated>
-    </task>
-    <task id="LOCAL-00002" summary="hello world">
-      <created>1470678851492</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1470678851492</updated>
-    </task>
-    <task id="LOCAL-00003" summary="variableas">
-      <created>1470680661700</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1470680661700</updated>
-    </task>
-    <task id="LOCAL-00004" summary="sout">
-      <created>1470681090364</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1470681090364</updated>
-    </task>
-    <task id="LOCAL-00005" summary="начал делать домашнюю работу">
-      <created>1470772525076</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1470772525076</updated>
-    </task>
-    <task id="LOCAL-00006" summary="сделал задание по методам">
-      <created>1470772588960</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1470772588960</updated>
     </task>
     <task id="LOCAL-00007" summary="сделал задание по выполнению сложной операции">
       <created>1470773561125</created>
@@ -903,203 +1017,360 @@
       <option name="project" value="LOCAL" />
       <updated>1470857753403</updated>
     </task>
-    <task id="LOCAL-00015" summary="убрал лишние скобки">
-      <created>1471281634948</created>
+    <task id="LOCAL-00015" summary="начал делать домашнее задание ко второму уроку">
+      <created>1471440151989</created>
       <option name="number" value="00015" />
       <option name="presentableId" value="LOCAL-00015" />
       <option name="project" value="LOCAL" />
-      <updated>1471281634948</updated>
+      <updated>1471440151989</updated>
     </task>
-    <task id="LOCAL-00016" summary="начало третьего урока">
-      <created>1471549295295</created>
+    <task id="LOCAL-00016" summary="закончил задание 1">
+      <created>1471441269319</created>
       <option name="number" value="00016" />
       <option name="presentableId" value="LOCAL-00016" />
       <option name="project" value="LOCAL" />
-      <updated>1471549295295</updated>
+      <updated>1471441269319</updated>
     </task>
-    <task id="LOCAL-00017" summary="написал езё один todo">
-      <created>1471853384849</created>
+    <task id="LOCAL-00017" summary="закончил задание 2">
+      <created>1471441455940</created>
       <option name="number" value="00017" />
       <option name="presentableId" value="LOCAL-00017" />
       <option name="project" value="LOCAL" />
-      <updated>1471853384849</updated>
+      <updated>1471441455940</updated>
     </task>
-    <task id="LOCAL-00018" summary="сдеклал домашку к 4 уроку (всю)">
-      <created>1472047294473</created>
+    <task id="LOCAL-00018" summary="закончил задание 3">
+      <created>1471442002709</created>
       <option name="number" value="00018" />
       <option name="presentableId" value="LOCAL-00018" />
       <option name="project" value="LOCAL" />
-      <updated>1472047294473</updated>
+      <updated>1471442002709</updated>
     </task>
-    <task id="LOCAL-00019" summary="сделал 1 задание по домашнему заданию к 6 уроку">
-      <created>1472725721088</created>
+    <task id="LOCAL-00019" summary="закончил задание 3 (исправил ошибки)">
+      <created>1471443537601</created>
       <option name="number" value="00019" />
       <option name="presentableId" value="LOCAL-00019" />
       <option name="project" value="LOCAL" />
-      <updated>1472725721088</updated>
+      <updated>1471443537601</updated>
     </task>
-    <task id="LOCAL-00020" summary="сделал 2 задание по домашнему заданию к 6 уроку">
-      <created>1472728334740</created>
+    <task id="LOCAL-00020" summary="закончил задание 4">
+      <created>1471444641620</created>
       <option name="number" value="00020" />
       <option name="presentableId" value="LOCAL-00020" />
       <option name="project" value="LOCAL" />
-      <updated>1472728334740</updated>
+      <updated>1471444641620</updated>
     </task>
-    <task id="LOCAL-00021" summary="сделал 3 задание по домашнему заданию к 6 уроку">
-      <created>1472734013135</created>
+    <task id="LOCAL-00021" summary="исправил задание 1">
+      <created>1471445296093</created>
       <option name="number" value="00021" />
       <option name="presentableId" value="LOCAL-00021" />
       <option name="project" value="LOCAL" />
-      <updated>1472734013135</updated>
+      <updated>1471445296093</updated>
     </task>
-    <task id="LOCAL-00022" summary="добавил коммент">
-      <created>1472734121574</created>
+    <task id="LOCAL-00022" summary="немного косметики и наполовину сделанное 5 задание">
+      <created>1471446482849</created>
       <option name="number" value="00022" />
       <option name="presentableId" value="LOCAL-00022" />
       <option name="project" value="LOCAL" />
-      <updated>1472734121574</updated>
+      <updated>1471446482849</updated>
     </task>
-    <task id="LOCAL-00023" summary="немного по-другому реализовал инициализацию команд">
-      <created>1473629079320</created>
+    <task id="LOCAL-00023" summary="закончил задание 5">
+      <created>1471446873092</created>
       <option name="number" value="00023" />
       <option name="presentableId" value="LOCAL-00023" />
       <option name="project" value="LOCAL" />
-      <updated>1473629079320</updated>
+      <updated>1471446873092</updated>
     </task>
-    <task id="LOCAL-00024" summary="по совету преподавателя прекратил заниматься не тем и вынес из классов Team и  Course все вложенные в них классы">
-      <created>1473664181604</created>
+    <task id="LOCAL-00024" summary="закончил задание 6">
+      <created>1471448447705</created>
       <option name="number" value="00024" />
       <option name="presentableId" value="LOCAL-00024" />
       <option name="project" value="LOCAL" />
-      <updated>1473664181604</updated>
+      <updated>1471448447705</updated>
     </task>
-    <task id="LOCAL-00025" summary="Начал делать домашнее задание к 4 уроку. Запилил окошко и список верхнего меню">
-      <created>1474547040828</created>
+    <task id="LOCAL-00025" summary="немного доделал задание 6">
+      <created>1471448902436</created>
       <option name="number" value="00025" />
       <option name="presentableId" value="LOCAL-00025" />
       <option name="project" value="LOCAL" />
-      <updated>1474547040828</updated>
+      <updated>1471448902436</updated>
     </task>
-    <task id="LOCAL-00026" summary="сделал оставшиеся основные элементы чта - основное окно с текстом, поле ввода текста пользователем, кнопка отправки текста">
-      <created>1474552679455</created>
+    <task id="LOCAL-00026" summary="начал делать домашку к третьему уроку">
+      <created>1471787766859</created>
       <option name="number" value="00026" />
       <option name="presentableId" value="LOCAL-00026" />
       <option name="project" value="LOCAL" />
-      <updated>1474552679455</updated>
+      <updated>1471787766859</updated>
     </task>
-    <task id="LOCAL-00027" summary="объединил ActionListener для ввода текста  в текстовом поле и кнопке">
-      <created>1474553135234</created>
+    <task id="LOCAL-00027" summary="доделал задание 2 (Усовершенствовать метод проверки победы(через циклы);)">
+      <created>1471800184825</created>
       <option name="number" value="00027" />
       <option name="presentableId" value="LOCAL-00027" />
       <option name="project" value="LOCAL" />
-      <updated>1474553135234</updated>
+      <updated>1471800184825</updated>
     </task>
-    <task id="LOCAL-00028" summary="перенёс переменные текстового поля чата т текстового поля ввода текста в общие переменные для окна">
-      <created>1474570650268</created>
+    <task id="LOCAL-00028" summary="исправил ошибки в проверке диагонали слева снизу вправо вверх">
+      <created>1471802729911</created>
       <option name="number" value="00028" />
       <option name="presentableId" value="LOCAL-00028" />
       <option name="project" value="LOCAL" />
-      <updated>1474570650268</updated>
+      <updated>1471802729911</updated>
     </task>
-    <task id="LOCAL-00029" summary="запилил динамическую (по мере отправки) запись текста в файл.">
-      <created>1474625049547</created>
+    <task id="LOCAL-00029" summary="начал делать 4 задание">
+      <created>1471804272386</created>
       <option name="number" value="00029" />
       <option name="presentableId" value="LOCAL-00029" />
       <option name="project" value="LOCAL" />
-      <updated>1474625049547</updated>
+      <updated>1471804272386</updated>
     </task>
-    <task id="LOCAL-00030" summary="изменил метод записи в файл">
-      <created>1474651219214</created>
+    <task id="LOCAL-00030" summary="вроде сделал 4 задание">
+      <created>1471806028707</created>
       <option name="number" value="00030" />
       <option name="presentableId" value="LOCAL-00030" />
       <option name="project" value="LOCAL" />
-      <updated>1474651219214</updated>
+      <updated>1471806028707</updated>
     </task>
-    <task id="LOCAL-00031" summary="просто коммит">
-      <created>1475311045775</created>
+    <task id="LOCAL-00031" summary="исправил мелкую ошибку и протестировал разные варианты блокирования, работают">
+      <created>1471806492056</created>
       <option name="number" value="00031" />
       <option name="presentableId" value="LOCAL-00031" />
       <option name="project" value="LOCAL" />
-      <updated>1475311045775</updated>
+      <updated>1471806492056</updated>
     </task>
-    <task id="LOCAL-00032" summary="Начал делать домашнее задание к 6 уроку">
-      <created>1475823453362</created>
+    <task id="LOCAL-00032" summary="немного покоментил">
+      <created>1471808100919</created>
       <option name="number" value="00032" />
       <option name="presentableId" value="LOCAL-00032" />
       <option name="project" value="LOCAL" />
-      <updated>1475823453362</updated>
+      <updated>1471808100925</updated>
     </task>
-    <task id="LOCAL-00033" summary="добавил серверную часть в код и доработал клиент чтобы он посылал по сети сообщения">
-      <created>1475850722121</created>
+    <task id="LOCAL-00033" summary="написал todo's для блокирования">
+      <created>1471840180856</created>
       <option name="number" value="00033" />
       <option name="presentableId" value="LOCAL-00033" />
       <option name="project" value="LOCAL" />
-      <updated>1475850722121</updated>
+      <updated>1471840180856</updated>
     </task>
-    <task id="LOCAL-00034" summary="добавил код с урока 7">
-      <created>1475863362324</created>
+    <task id="LOCAL-00034" summary="начал делать домашнее задание для 5 урока">
+      <created>1472446544880</created>
       <option name="number" value="00034" />
       <option name="presentableId" value="LOCAL-00034" />
       <option name="project" value="LOCAL" />
-      <updated>1475863362324</updated>
+      <updated>1472446544880</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="загрузил код с урока 7, с которым надо разобраться">
+      <created>1472830566973</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1472830566973</updated>
+    </task>
+    <task id="LOCAL-00036" summary="сделал домашнее задание к 7 уроку (расчерчивание поля)">
+      <created>1472834086421</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1472834086421</updated>
+    </task>
+    <task id="LOCAL-00037" summary="добавил тетрис (написано не мной)">
+      <created>1473510972079</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1473510972079</updated>
+    </task>
+    <task id="LOCAL-00038" summary="начал делать домашнее задание к 1 уроку второй части Java (скопировал исходники урока)">
+      <created>1473511263914</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1473511263914</updated>
+    </task>
+    <task id="LOCAL-00039" summary="запилил домашнее задание (вроде как надо, но не настолько коротко)">
+      <created>1473521262856</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1473521262856</updated>
+    </task>
+    <task id="LOCAL-00040" summary="ещё уменьшил количество файлов (засунул интерфейсы в класс Team)">
+      <created>1473529305334</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1473529305334</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Исправленный тетрис">
+      <created>1473564107268</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1473564107268</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Добавил GameOfLife с картинками">
+      <created>1473565532258</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1473565532258</updated>
+    </task>
+    <task id="LOCAL-00043" summary="добавил в каменты ссылки на репозиторий с играми">
+      <created>1473565629574</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1473565629574</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Начал делать домашнее задание к 2 уроку курса Java2">
+      <created>1473846525005</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1473846525006</updated>
+    </task>
+    <task id="LOCAL-00045" summary="сделал 1 и 2 пункты задания">
+      <created>1473848358479</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1473848358479</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Сделал домашнее задание ко второму уроку полностью">
+      <created>1473854678580</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1473854678580</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Начал делать домашнее задание к третьему уроку">
+      <created>1474375640757</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1474375640757</updated>
+    </task>
+    <task id="LOCAL-00048" summary="сделал первое задание">
+      <created>1474377047958</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1474377047958</updated>
+    </task>
+    <task id="LOCAL-00049" summary="исправил недочеты">
+      <created>1474379893003</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1474379893003</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Начал делать дневник">
+      <created>1474806028392</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1474806028393</updated>
+    </task>
+    <task id="LOCAL-00051" summary="примерно разобрался с парсингом информации о погоде с помощью библиотеки парсирга Jsoup">
+      <created>1474828584494</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1474828584494</updated>
+    </task>
+    <task id="LOCAL-00052" summary="добавил комментарии">
+      <created>1474858313484</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1474858313484</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Сделал первую версию домашнего задания к 5 уроку (с паузами)">
+      <created>1475570232468</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1475570232469</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Исправил недочёты и ошибки запуска потоков">
+      <created>1475570656739</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1475570656739</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Почистил форматирование">
+      <created>1475570925428</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1475570925428</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1176" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328341" sideWeight="0.50298506" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2729885" sideWeight="0.49701494" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32854405" sideWeight="0.49701494" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19029851" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3169165" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24411134" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18390192" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3994253" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3993576" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328341" sideWeight="0.50298506" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2729885" sideWeight="0.49701494" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32854405" sideWeight="0.49701494" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19029851" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32655245" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24411134" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18390192" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3994253" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3993576" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -1132,326 +1403,281 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="сделал ввод чисел для операции с четырьмя числами" />
-    <MESSAGE value="сделал ввод чисел для определения находжения суммы в пределах" />
-    <MESSAGE value="сделал метод для определения високосного года" />
-    <MESSAGE value="косметические изменения" />
-    <MESSAGE value="убрал лишние скобки" />
-    <MESSAGE value="начало третьего урока" />
-    <MESSAGE value="написал езё один todo" />
-    <MESSAGE value="сдеклал домашку к 4 уроку (всю)" />
-    <MESSAGE value="сделал 1 задание по домашнему заданию к 6 уроку" />
-    <MESSAGE value="сделал 2 задание по домашнему заданию к 6 уроку" />
-    <MESSAGE value="сделал 3 задание по домашнему заданию к 6 уроку" />
-    <MESSAGE value="добавил коммент" />
-    <MESSAGE value="немного по-другому реализовал инициализацию команд" />
-    <MESSAGE value="по совету преподавателя прекратил заниматься не тем и вынес из классов Team и  Course все вложенные в них классы" />
-    <MESSAGE value="Начал делать домашнее задание к 4 уроку. Запилил окошко и список верхнего меню" />
-    <MESSAGE value="сделал оставшиеся основные элементы чта - основное окно с текстом, поле ввода текста пользователем, кнопка отправки текста" />
-    <MESSAGE value="объединил ActionListener для ввода текста  в текстовом поле и кнопке" />
-    <MESSAGE value="перенёс переменные текстового поля чата т текстового поля ввода текста в общие переменные для окна" />
-    <MESSAGE value="запилил динамическую (по мере отправки) запись текста в файл." />
-    <MESSAGE value="изменил метод записи в файл" />
-    <MESSAGE value="разобрался с парсингом, начал парсить погоду" />
-    <MESSAGE value="просто коммит" />
-    <MESSAGE value="Начал делать домашнее задание к 6 уроку" />
-    <MESSAGE value="добавил серверную часть в код и доработал клиент чтобы он посылал по сети сообщения" />
-    <MESSAGE value="добавил код с урока 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавил код с урока 7" />
+    <MESSAGE value="начал делать домашнее задание для 5 урока" />
+    <MESSAGE value="загрузил код с урока 7, с которым надо разобраться" />
+    <MESSAGE value="сделал домашнее задание к 7 уроку (расчерчивание поля)" />
+    <MESSAGE value="добавил тетрис (написано не мной)" />
+    <MESSAGE value="начал делать домашнее задание к 1 уроку второй части Java (скопировал исходники урока)" />
+    <MESSAGE value="упаковал классы внутрь двух больших классов" />
+    <MESSAGE value="запилил домашнее задание (вроде как надо, но не настолько коротко)" />
+    <MESSAGE value="ещё уменьшил количество файлов (засунул интерфейсы в класс Team)" />
+    <MESSAGE value="Исправленный тетрис" />
+    <MESSAGE value="Добавил GameOfLife с картинками" />
+    <MESSAGE value="добавил в каменты ссылки на репозиторий с играми" />
+    <MESSAGE value="Начал делать домашнее задание к 2 уроку курса Java2" />
+    <MESSAGE value="сделал 1 и 2 пункты задания" />
+    <MESSAGE value="Сделал домашнее задание ко второму уроку полностью" />
+    <MESSAGE value="Начал делать домашнее задание к третьему уроку" />
+    <MESSAGE value="сделал первое задание" />
+    <MESSAGE value="сделал второе задание" />
+    <MESSAGE value="исправил недочеты" />
+    <MESSAGE value="Начал делать дневник" />
+    <MESSAGE value="примерно разобрался с парсингом информации о погоде с помощью библиотеки парсирга Jsoup" />
+    <MESSAGE value="добавил комментарии" />
+    <MESSAGE value="Сделал первую версию домашнего задания к 5 уроку (с паузами)" />
+    <MESSAGE value="Исправил недочёты и ошибки запуска потоков" />
+    <MESSAGE value="Почистил форматирование" />
+    <MESSAGE value="Добавил файлы из того, что сделали на 7 уроке" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил файлы из того, что сделали на 7 уроке" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="8" />
+      <option name="time" value="13" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
+        <watch expression="fieldSizeX - x" language="JAVA" />
+        <watch expression="fieldSizeY - y" language="JAVA" />
         <watch expression="c" />
-        <watch expression="t2.participants[0]" />
       </configuration>
     </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="beginJava_1" />
+        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="beginJava_1" />
+        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+      </PATH_ELEMENT>
+    </PATH>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/geekbrains/java1/lesson3/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/geekbrains/java1/lesson3/lesson/Main.java">
+    <entry file="jar://$PROJECT_DIR$/../../jdk/src.zip!/javax/swing/JComponent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="11985">
+          <caret line="775" column="19" selection-start-line="775" selection-start-column="19" selection-end-line="775" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files/Java/JDK/src.zip!/java/util/Scanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="561" column="11" selection-start-line="561" selection-start-column="11" selection-end-line="561" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/geekbrains/java1/lesson2/homework/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/geekbrains/java1/lesson3/lesson/NoughtsAndCrosses.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="671">
-          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/geekbrains/java1/lesson3/homework/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/geekbrains/java1/lesson3/homework/NoughtsAndCrosses.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="138" column="38" selection-start-line="138" selection-start-column="38" selection-end-line="138" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson1/homework/Скщыы.java" />
-    <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson1/homework/Cross.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson1/homework/Wall.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson1/homework/Water.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson1/homework/Sportsman.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson1/homework/Transport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson1/homework/Cat.java">
+    <entry file="file://$PROJECT_DIR$/src/geekbrains/java1/lesson7/noughts_and_crosses/MainClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson1/homework/Dog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson1/homework/Animal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson1/homework/Moto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson1/homework/Human.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="81" column="1" selection-start-line="81" selection-start-column="1" selection-end-line="81" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson1/homework/Horse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson1/homework/Course.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="27" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson1/homework/Team.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson1/homework/MainClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson1/homework/Obstacle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/geekbrains/java1/lesson7/noughts_and_crosses/GameWindow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="38" column="31" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="31" />
+        <state relative-caret-position="663">
+          <caret line="44" column="35" selection-start-line="44" selection-start-column="35" selection-end-line="44" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files/Java/JDK/src.zip!/javax/swing/JMenu.java">
+    <entry file="file://$PROJECT_DIR$/src/geekbrains/java1/lesson7/noughts_and_crosses/StartNewGameWindow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17461">
-          <caret line="167" column="11" selection-start-line="167" selection-start-column="11" selection-end-line="167" selection-end-column="11" />
+        <state relative-caret-position="1513">
+          <caret line="96" column="88" selection-start-line="96" selection-start-column="88" selection-end-line="96" selection-end-column="88" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files/Java/JDK/src.zip!/javax/swing/JMenuItem.java">
+    <entry file="file://$PROJECT_DIR$/src/geekbrains/java1/lesson7/noughts_and_crosses/Map.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="164" column="13" selection-start-line="164" selection-start-column="13" selection-end-line="164" selection-end-column="13" />
+        <state relative-caret-position="578">
+          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files/Java/JDK/src.zip!/javax/swing/AbstractButton.java">
+    <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson1/homework/Animal2.java" />
+    <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson1/homework/Cat.java" />
+    <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson1/homework/Dog.java" />
+    <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson1/homework/Horse.java" />
+    <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson1/homework/Human.java" />
+    <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson1/homework/Moto.java" />
+    <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson1/homework/Obstacle.java" />
+    <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson1/homework/Cross.java" />
+    <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson1/homework/Wall.java" />
+    <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson1/homework/Water.java" />
+    <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson1/homework/Sportsman.java" />
+    <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson1/homework/Transport.java" />
+    <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson1/homework/Team.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="1573" column="16" selection-start-line="1573" selection-start-column="16" selection-end-line="1573" selection-end-column="16" />
+        <state relative-caret-position="51">
+          <caret line="4" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="24" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files/Java/JDK/src.zip!/javax/swing/JComponent.java">
+    <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson1/homework/Course.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="1791" column="28" selection-start-line="1791" selection-start-column="28" selection-end-line="1791" selection-end-column="28" />
+        <state relative-caret-position="541">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files/Java/JDK/src.zip!/javax/swing/ScrollPaneLayout.java">
+    <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson1/homework/MainClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3582">
-          <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
+        <state relative-caret-position="391">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files/Java/JDK/src.zip!/javax/swing/border/Border.java">
+    <entry file="file://$PROJECT_DIR$/src/Games/GameOfLife.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="63" column="17" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="17" />
+        <state relative-caret-position="204">
+          <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/geekbrains/java1/lesson2/homework/Homework.java">
+    <entry file="file://$PROJECT_DIR$/src/Games/Tetris.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-863">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        <state relative-caret-position="85">
+          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/geekbrains/java1/lesson4/homework/Main.java">
+    <entry file="jar://$PROJECT_DIR$/../../jdk/src.zip!/java/lang/SecurityManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="65" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
+        <state relative-caret-position="200">
+          <caret line="226" column="6" selection-start-line="226" selection-start-column="6" selection-end-line="226" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/geekbrains/java1/lesson4/homework/Employee.java">
+    <entry file="jar://$PROJECT_DIR$/../../jdk/src.zip!/java/lang/System.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+        <state relative-caret-position="191">
+          <caret line="332" column="27" selection-start-line="332" selection-start-column="27" selection-end-line="332" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files/Java/JDK/src.zip!/java/io/File.java">
+    <entry file="jar://$PROJECT_DIR$/../../jdk/src.zip!/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="274" column="11" selection-start-line="274" selection-start-column="11" selection-end-line="274" selection-end-column="11" />
+        <state relative-caret-position="548">
+          <caret line="1100" column="28" selection-start-line="1100" selection-start-column="28" selection-end-line="1100" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files/Java/JDK/src.zip!/java/io/FileOutputStream.java">
+    <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson2/homework/Matrix.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="132" column="34" selection-start-line="132" selection-start-column="34" selection-end-line="132" selection-end-column="34" />
+        <state relative-caret-position="782">
+          <caret line="46" column="15" selection-start-line="46" selection-start-column="15" selection-end-line="46" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files/Java/JDK/src.zip!/java/io/PrintWriter.java">
+    <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson2/homework/IllegalMatrixException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="999" column="23" selection-start-line="999" selection-start-column="23" selection-end-line="999" selection-end-column="23" />
+        <state relative-caret-position="170">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../jdk/src.zip!/java/lang/CharSequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="81" column="6" selection-start-line="81" selection-start-column="6" selection-end-line="81" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../jdk/src.zip!/java/util/regex/Pattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="1092" column="27" selection-start-line="1092" selection-start-column="27" selection-end-line="1092" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson2/homework/Test.java" />
+    <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson2/homework/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson3/homework/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson3/homework/Memo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson3/homework/Test.java" />
+    <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson3/homework/PhoneBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson4/homework/ClientWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chatText.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="1683">
+          <caret line="99" column="0" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/geekbrains/java1/lesson6/homework/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson4/homework/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="62" column="60" selection-start-line="62" selection-start-column="60" selection-end-line="62" selection-end-column="60" />
+        <state relative-caret-position="153">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../jdk/src.zip!/java/net/SocketInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="115" column="0" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/jsoup-1.9.2.jar!/org/jsoup/select/Elements.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/weather_sample.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2125">
-          <caret line="125" column="21" selection-start-line="125" selection-start-column="21" selection-end-line="125" selection-end-column="21" />
+        <state relative-caret-position="136">
+          <caret line="8" column="218" selection-start-line="8" selection-start-column="218" selection-end-line="8" selection-end-column="218" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Diary/WeatherEvent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="57" column="25" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
-          <folding>
-            <element signature="e#3795#3796#0" expanded="true" />
-            <element signature="e#3843#3844#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="340">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Diary/TestParseHTML.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        <state relative-caret-position="374">
+          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1460,102 +1686,168 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson5/homework/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        <state relative-caret-position="187">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson4/homework/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson4/homework/ClientWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="class#2215:2368" expanded="false" />
-            <element signature="e#2311#2312#0" expanded="false" />
-            <element signature="e#2357#2358#0" expanded="false" />
-            <element signature="e#3865#3866#0" expanded="false" />
-            <element signature="e#3917#3918#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson6/homework/chatClient/MainClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson6/homework/chatClient/MyWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="55" column="25" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson6/homework/chatClient/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding>
-            <element signature="e#119#120#0" expanded="true" />
-            <element signature="e#181#182#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson6/homework/chatClient/ClientWindow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="119" column="44" selection-start-line="119" selection-start-column="44" selection-end-line="119" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="85">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson6/homework/chatServer/MainClass.java">
+    <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson7/homework/client/MainClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="34">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#119#120#0" expanded="true" />
+            <element signature="e#162#163#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson6/homework/chatServer/MyServer.java">
+    <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson7/homework/client/MyWindow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        <state relative-caret-position="-1694">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1264#1265#0" expanded="true" />
-            <element signature="e#1294#1295#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson6/homework/chatServer/ClientHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson7/homework/server/ClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson7/homework/server/MainClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="e#150#151#0" expanded="true" />
+            <element signature="e#198#199#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson7/homework/server/SQLHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
-          <caret line="35" column="51" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
+          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson7/homework/server/MyServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>jsoup-1.9.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>beginJava_1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>sqlite-jdbc-3.8.11.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

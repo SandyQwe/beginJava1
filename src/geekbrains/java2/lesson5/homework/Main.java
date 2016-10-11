@@ -2,8 +2,8 @@ package geekbrains.java2.lesson5.homework;
 
 
 public class Main {
-    private static final int size = 1000000;
-    private static final int h = size / 2;
+    private static final int SIZE = 1000000;
+    private static final int H = SIZE / 2;
 
     public static void main(String[] args) {
         method1();
@@ -12,7 +12,7 @@ public class Main {
 
 
     private static void method1() {
-        float[] arr = new float[size];
+        float[] arr = new float[SIZE];
         for (int i = 0; i < arr.length; i++) arr[i]++;
         long a = System.currentTimeMillis();
         for (int i = 0; i < arr.length; i++)
@@ -21,13 +21,13 @@ public class Main {
     }
 
     private static void method2() {
-        float[] arr = new float[size];
+        float[] arr = new float[SIZE];
         for (int i = 0; i < arr.length; i++) arr[i]++;
         long a = System.currentTimeMillis();
-        float[] a1 = new float[h];
-        float[] a2 = new float[h];
-        System.arraycopy(arr, 0, a1, 0, h);
-        System.arraycopy(arr, h, a2, 0, h);
+        float[] a1 = new float[H];
+        float[] a2 = new float[H];
+        System.arraycopy(arr, 0, a1, 0, H);
+        System.arraycopy(arr, H, a2, 0, H);
         Thread t1 = new Thread(new Runnable() {
             @Override
             public void run() {
@@ -50,8 +50,8 @@ public class Main {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        System.arraycopy(a1, 0, arr, 0, h);
-        System.arraycopy(a2, 0, arr, h - 1, h);
+        System.arraycopy(a1, 0, arr, 0, H);
+        System.arraycopy(a2, 0, arr, H - 1, H);
         System.out.println("Второй метод " + (System.currentTimeMillis() - a));
     }
 
