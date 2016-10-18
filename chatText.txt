@@ -201,3 +201,63 @@ Unknown command
 Невозможно поменять ник
 /end
 Вы вышли из чата
+Сервер: dfjhgsdj подключился к чату
+/changenick jsdgfsj
+Unknown command
+Невозможно поменять ник
+/end
+Вы вышли из чата
+Сервер: dfjhgsdj подключился к чату
+/changenick jhgjhgfj
+Unknown command
+Невозможно поменять ник
+/end
+Вы вышли из чата
+Сервер: dfjhgsdj подключился к чату
+/changenick Qwe
+Сервер: Пользователь dfjhgsdj сменил ник на Qwe
+/pm Qwe skdjfhskufh skfjshdl;
+from Qwe: skdjfhskufh skfjshdl;
+to Qwe: skdjfhskufh skfjshdl;
+Unknown command
+/end
+Вы вышли из чата
+Сервер: Qwe подключился к чату
+kjh dfkjdhfkl gj
+Qwe: kjh dfkjdhfkl gj
+/end
+Вы вышли из чата
+Сервер: Qwe подключился к чату
+/end
+Вы вышли из чата
+Сервер: Qwe подключился к чату
+/end
+Вы вышли из чата
+Сервер: Qwe подключился к чату
+Сервер: Qwe подключился к чату
+mfh kdfh
+Qwe: mfh kdfh
+kfjgh kdfgh d
+Qwe: kfjgh kdfgh d
+kfjgh kdfjg
+Qwe: kfjgh kdfjg
+/changenick Derry
+Сервер: Пользователь Qwe сменил ник на Derry
+eeee
+Derry: eeee
+/end
+Вы вышли из чата
+Сервер: Derry подключился к чату
+trh dtgh gf
+Derry: trh dtgh gf
+/end
+Вы вышли из чата
+Сервер: Derry подключился к чату
+fghfhf
+Derry: fghfhf
+/end
+Вы вышли из чата
+Сервер: Derry подключился к чату
+/end
+Вы вышли из чата
+Сервер: Derry подключился к чату

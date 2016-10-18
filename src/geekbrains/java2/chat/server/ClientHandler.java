@@ -6,7 +6,7 @@ import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.Socket;
 
-public class ClientHandler implements Runnable {
+class ClientHandler implements Runnable {
     private Socket sock;
     private MyServer owner;
     private DataInputStream in;
@@ -56,23 +56,21 @@ public class ClientHandler implements Runnable {
                             sendMessage("Вы вышли из чата");
                             sendMessage("/endsession");
                             break;
+//                        } else if (str.startsWith("/changenick")) {
+//                            String newNick = str.split(" ")[1];
+//                            if (newNick.length() > 2 && SQLHandler.tryToChangeNick(nick, newNick)) {
+//                                sendMessage("/nickchanged " + newNick);
+//                                owner.broadCastMessage("Сервер", "Пользователь " + nick + " сменил ник на " + newNick);
+//                                this.nick = newNick;
+//                            } else {
+//                                sendMessage("Невозможно поменять ник");
+//                            }
+//                        } else if (str.startsWith("/pm")) { // /pm geekbrains hello java
+//                            String sto = str.split(" ")[1];
+//                            String getmsg = str.substring(sto.length() + 5);
+//                            owner.personalMessage(this, sto, getmsg);
+//                            System.out.println("pm from " + this.getNick() + " to " + sto + ": " + getmsg);
                         } else serviceCommandHandler(str);
-                        if (str.startsWith("/changenick")) {
-                            String newNick = str.split(" ")[1];
-                            if (newNick.length() > 2 && SQLHandler.tryToChangeNick(nick, newNick)) {
-                                sendMessage("/nickchanged " + newNick);
-                                owner.broadCastMessage("Сервер", "Пользователь " + nick + " сменил ник на " + newNick);
-                                this.nick = newNick;
-                            } else {
-                                sendMessage("Невозможно поменять ник");
-                            }
-                        }
-                        if (str.startsWith("/pm")) { // /pm geekbrains hello java
-                            String sto = str.split(" ")[1];
-                            String getmsg = str.substring(sto.length() + 5);
-                            owner.personalMessage(this, sto, getmsg);
-                            System.out.println("pm from " + this.getNick() + " to " + sto + ": " + getmsg);
-                        }
                     } else {
 //                        if (!nick.equals(""))
                         System.out.println(nick + ": " + str);
@@ -87,7 +85,7 @@ public class ClientHandler implements Runnable {
         }
     }
 
-    public void sendMessage(String message) {
+    private void sendMessage(String message) {
         try {
             out.writeUTF(message);
             out.flush();
@@ -109,26 +107,33 @@ public class ClientHandler implements Runnable {
 //                } else sendMessage("Auth error");
 //                break;
 //            }
-//            case "/changenick": {
-//                String newNick = commands[1];
-//                if (SQLHandler.changeNick(newNick, nick)) {
-//                    nick = newNick;
-//                    owner.broadCastMessage("server", "User " + nick + " change nickname to " + newNick);
-//                } else {
-//                    sendMessage("Nickname " + newNick + " already exist, nickname does not changed.");
-//                }
-//                break;
-//            }
+            case "/changenick": {
+                String newNick = commands[1];
+                if (newNick.length() > 2 && SQLHandler.tryToChangeNick(nick, newNick)) {
+                    sendMessage("/nickchanged " + newNick);
+                    owner.broadCastMessage("Сервер", "Пользователь " + nick + " сменил ник на " + newNick);
+                    this.nick = newNick;
+                } else {
+                    sendMessage("Невозможно поменять ник");
+                }
+                break;
+            }
+            case "/pm": {
+                String sto = commands[1];
+                String getmsg = command.substring(sto.length() + 5);
+                owner.personalMessage(this, sto, getmsg);
+                System.out.println("pm from " + this.getNick() + " to " + sto + ": " + getmsg);
+            }
 //            case "/end": {
 //                sendMessage("end");
 //                disconnect();
 //                break;
 //            }
-            default: {
-                sendMessage("Unknown command");
+                default: {
+                    sendMessage("Unknown command");
+                }
             }
         }
-    }
 
     private void disconnect() {
         try {

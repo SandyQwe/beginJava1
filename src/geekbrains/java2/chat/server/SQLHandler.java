@@ -2,7 +2,7 @@ package geekbrains.java2.chat.server;
 
 import java.sql.*;
 
-public class SQLHandler {
+class SQLHandler {
     private static Connection conn;
     private static Statement stmt;
 
@@ -29,13 +29,13 @@ public class SQLHandler {
         return null;
     }
 
-    static boolean tryToChangeNick(String newNick, String nick) {
+    static boolean tryToChangeNick(String nick, String newNick) {
         try {
 //            if (stmt.executeQuery("SELECT id FROM test WHERE nick = '" + newNick + "'").next()) return false;
 //            ResultSet rs = stmt.executeQuery("SELECT id FROM test WHERE nick = '" + nick + "'");
 //            rs.next();
 //            int id = rs.getInt(1);
-            int w = stmt.executeUpdate("UPDATE test SET nick = '" + newNick + "' WHERE nick = '" + nick + "';");
+            int w = stmt.executeUpdate("UPDATE test SET nick = '" + newNick + "' WHERE nick = '" + nick + "'");
             //результат = количество обновлений базы, если 0, значит обновление не произошло
             return w == 1; //если не получилось сменить ник из-за exception, то ник не меняется
         } catch (SQLException e) {

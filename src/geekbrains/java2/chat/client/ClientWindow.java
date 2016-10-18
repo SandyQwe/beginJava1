@@ -114,7 +114,12 @@ class ClientWindow extends JFrame {
         JPasswordField jPasswordField = new JPasswordField("pass1");
         jPasswordField.setEchoChar('•');
         JButton jAuthButton = new JButton("Authorize");
-        jAuthButton.addActionListener(e -> sendAuthMsg(jLoginField.getText(), jPasswordField.getText()));
+        jAuthButton.addActionListener(e -> {
+            serverAddress = jServerAddress.getText();
+            serverPort = Integer.parseInt(jServerPort.getText());
+            if (sock == null) connect();
+            sendAuthMsg(jLoginField.getText(), jPasswordField.getText());
+        });
         JPanel jpm = new JPanel(new GridLayout(4, 1, 5, 5));
         jpm.add(serverPanel);
         jpm.add(jLoginField);
@@ -127,7 +132,7 @@ class ClientWindow extends JFrame {
 
         textField.requestFocus();
 
-        connect();
+//        connect();
 
         addWindowListener(new WindowAdapter() {
             @Override
@@ -209,12 +214,6 @@ class ClientWindow extends JFrame {
                         printMsg("Session closed...");
                     } finally {
                         disconnect();
-//                        try {
-//                            sock.close();
-//                            sock = null;
-//                        } catch (IOException e) {
-//                            e.printStackTrace();
-//                        }
                     }
                 }).start();
             }
@@ -235,9 +234,10 @@ class ClientWindow extends JFrame {
     }
 
     private void disconnect() {
-        if (sock.isConnected()) {
+        if (!(sock == null)) {
             try {
                 sock.close();
+                sock = null;
             } catch (IOException e) {
                 JOptionPane.showMessageDialog(null, "Соединение закрыто");
             }
