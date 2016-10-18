@@ -13,20 +13,26 @@ class ClientWindow extends JFrame {
     private DataInputStream in = null;
     private DataOutputStream out = null;
     private boolean auth = false;
-    private JTextArea mainChatText = new JTextArea(); //Поле для вывода текста чата
+    private JTextArea mainChatText = null; //Поле для вывода текста чата
     private JTextField textField = new JTextField(); //Поле для ввода текста пользователем
     private PrintWriter chatTextFile = null;
+    private CardLayout mainWindow = null;
+    private JPanel centerWindow = null;
+    //    private JPanel chatFrame = null;
+//    private JPanel registrationFrame = null;
+//    private JPanel createUserFrame = null;
     private String nick;
+    private String serverAddress = "localhost";//"83.221.205.67";
+    private Integer serverPort = 8189;
+    private JTextField jServerAddress = null;
+    private JTextField jServerPort = null;
 
 
     ClientWindow() {
-        final ActionListener sendText = new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                if (!textField.getText().equals("")) {
-                    printMsg(textField.getText());
-                    sendMsg();
-                }
+        final ActionListener sendText = e -> {
+            if (!textField.getText().equals("")) {
+                printMsg(textField.getText());
+                sendMsg();
             }
         }; //ActionListener для отправки текста и записи его в файл, используется в текстовом поле и в кнопке
 
@@ -49,11 +55,9 @@ class ClientWindow extends JFrame {
         mainMenuFirst.add(new JMenuItem("Login...", KeyEvent.VK_L));
         mainMenuFirst.add(new JMenuItem("Change password...", KeyEvent.VK_N));
         mainMenuFirst.add(new JMenuItem("Logout", KeyEvent.VK_O));
-        mainMenuFirst.add(new JMenuItem("Exit", KeyEvent.VK_X)).addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                System.exit(0);
-            }
+        mainMenuFirst.add(new JMenuItem("Exit", KeyEvent.VK_X)).addActionListener(e -> {
+            disconnect();
+            System.exit(0);
         });
         JMenu mainMenuSecond = new JMenu("Chat");
         mainMenuSecond.setMnemonic(KeyEvent.VK_C);
@@ -66,13 +70,20 @@ class ClientWindow extends JFrame {
         mainMenu.add(mainMenuLast);
         add(mainMenu, BorderLayout.NORTH);
 
+        //добавление в центр сменной панельки
+        mainWindow = new CardLayout();
+        centerWindow = new JPanel(mainWindow); //панелька чтобы в неё добавлять Frame'ы - чат, регистрация, авторизация
+        add(centerWindow, BorderLayout.CENTER);
+
+
         //Основное окно чата, переписка
+        JPanel chatFrame = new JPanel(new BorderLayout());
+        mainChatText = new JTextArea();
         mainChatText.setBorder(new LineBorder(Color.DARK_GRAY, 1));
         mainChatText.setBackground(Color.WHITE);
         mainChatText.setEditable(false);
         JScrollPane mainChatScroll = new JScrollPane(mainChatText);
-        add(mainChatScroll, BorderLayout.CENTER);
-
+        chatFrame.add(mainChatScroll, BorderLayout.CENTER);
         //Нижняя часть окна, область для набора текста и кнопка отправки
         JPanel bottomPanel = new JPanel();
         bottomPanel.setLayout(new BorderLayout());
@@ -82,7 +93,38 @@ class ClientWindow extends JFrame {
         sendTextButton.addActionListener(sendText);
         bottomPanel.add(textField, BorderLayout.CENTER);
         bottomPanel.add(sendTextButton, BorderLayout.EAST);
-        add(bottomPanel, BorderLayout.SOUTH);
+        chatFrame.add(bottomPanel, BorderLayout.SOUTH);
+        centerWindow.add("chat", chatFrame);
+//        mainWindow.show(centerWindow,"chat");
+
+        //Окно регистрации на сервере
+        JPanel registrationFrame = new JPanel(new GridLayout(3, 3));
+        for (int i = 0; i < 4; i++) registrationFrame.add(new JPanel());
+        jServerAddress = new JTextField(serverAddress);
+        jServerAddress.setEditable(false);
+        jServerAddress.setHorizontalAlignment(JTextField.LEADING);
+        jServerAddress.setBorder(new LineBorder(Color.DARK_GRAY, 1));
+        jServerPort = new JTextField(serverPort.toString());
+        jServerPort.setEditable(false);
+        jServerPort.setBorder(new LineBorder(Color.DARK_GRAY, 1));
+        JPanel serverPanel = new JPanel(new GridLayout(1, 2, 5, 5));
+        serverPanel.add(jServerAddress);
+        serverPanel.add(jServerPort);
+        JTextField jLoginField = new JTextField("login1");
+        JPasswordField jPasswordField = new JPasswordField("pass1");
+        jPasswordField.setEchoChar('•');
+        JButton jAuthButton = new JButton("Authorize");
+        jAuthButton.addActionListener(e -> sendAuthMsg(jLoginField.getText(), jPasswordField.getText()));
+        JPanel jpm = new JPanel(new GridLayout(4, 1, 5, 5));
+        jpm.add(serverPanel);
+        jpm.add(jLoginField);
+        jpm.add(jPasswordField);
+        jpm.add(jAuthButton);
+        registrationFrame.add(jpm);
+        for (int i = 0; i < 4; i++) registrationFrame.add(new JPanel());
+        centerWindow.add("authorization", registrationFrame);
+
+
         textField.requestFocus();
 
         connect();
@@ -95,7 +137,8 @@ class ClientWindow extends JFrame {
                 disconnect();
             }
         });
-        //// TODO: 11.10.2016 сделать окошко авторизации
+
+        setNick("");
 
         setVisible(true);
     }
@@ -124,7 +167,7 @@ class ClientWindow extends JFrame {
     public void connect() {
         try {
             if (sock == null) {
-                sock = new Socket("83.221.205.67", 8189);
+                sock = new Socket(serverAddress, serverPort);
                 in = new DataInputStream(sock.getInputStream());
                 out = new DataOutputStream(sock.getOutputStream());
 
@@ -137,67 +180,69 @@ class ClientWindow extends JFrame {
                                     setNick(str.split(" ")[1]);
                                     break;
                                 }
-                                if (str.startsWith("...")){
+                                if (str.startsWith("...")) {
                                     printMsg(str);
                                 }
                             }
                         }
 
-                            while (true) {
-                                String str = in.readUTF();
-                                if (str != null) {
-                                    if (str.startsWith("/")) {
-                                        if (str.startsWith("/nickchanged")) {
-                                            String newNick = str.split(" ")[1];
-                                            setNick(newNick);
-                                        }
-                                        if (str.equals("/endsession")) {
-                                            setNick("");
-                                            break;
-                                        }
-                                    } else {
-                                        printMsg(str);
+                        while (true) {
+                            String str = in.readUTF();
+                            if (str != null) {
+                                if (str.startsWith("/")) {
+                                    if (str.startsWith("/nickchanged")) {
+                                        String newNick = str.split(" ")[1];
+                                        setNick(newNick);
                                     }
+                                    if (str.equals("/endsession")) {
+                                        setNick("");
+                                        break;
+                                    }
+                                } else {
+                                    printMsg(str);
                                 }
                             }
-                        } catch(IOException e){
-                            JOptionPane.showMessageDialog(null, "Обрыв соединения");
-                            setNick("");
-                            printMsg("Session closed...");
-                        } finally{
-                            try {
-                                sock.close();
-                                sock = null;
-                            } catch (IOException e) {
-                                e.printStackTrace();
-                            }
                         }
-                    }).start();
-                }
-            } catch(IOException e){
-                JOptionPane.showMessageDialog(null, "Невозможно подключиться к серверу");
+                    } catch (IOException e) {
+                        JOptionPane.showMessageDialog(null, "Обрыв соединения");
+                        setNick("");
+                        printMsg("Session closed...");
+                    } finally {
+                        disconnect();
+//                        try {
+//                            sock.close();
+//                            sock = null;
+//                        } catch (IOException e) {
+//                            e.printStackTrace();
+//                        }
+                    }
+                }).start();
             }
+        } catch (IOException e) {
+            JOptionPane.showMessageDialog(null, "Невозможно подключиться к серверу");
         }
+    }
 
     private void setNick(String nick) {
         this.nick = nick;
         if (!nick.isEmpty()) {
             this.setTitle("Клиент: " + nick);
-//            enableAuthPanel(false);
+            mainWindow.show(centerWindow, "chat");
         } else {
             this.setTitle("Клиент: не авторизован");
-//            enableAuthPanel(true);
+            mainWindow.show(centerWindow, "authorization");
         }
     }
 
     private void disconnect() {
-        try {
-            sock.close();
-        } catch (IOException e) {
-            JOptionPane.showMessageDialog(null, "Соединение закрыто");
+        if (sock.isConnected()) {
+            try {
+                sock.close();
+            } catch (IOException e) {
+                JOptionPane.showMessageDialog(null, "Соединение закрыто");
+            }
         }
         setNick("");
-//        enableAuthPanel(true);
     }
 
     private void printMsg(String message) {

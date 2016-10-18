@@ -189,3 +189,15 @@ fjdghlkfj
 kjfhgkl
 kjdfhgkl
 jkdfhglk
+Сервер: dfjhgsdj подключился к чату
+/end
+Вы вышли из чата
+Сервер: dfjhgsdj подключился к чату
+/changenick QQQ
+Unknown command
+Невозможно поменять ник
+/changenick wedcdg
+Unknown command
+Невозможно поменять ник
+/end
+Вы вышли из чата
