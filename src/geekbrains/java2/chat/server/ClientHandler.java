@@ -85,7 +85,7 @@ class ClientHandler implements Runnable {
         }
     }
 
-    private void sendMessage(String message) {
+    void sendMessage(String message) {
         try {
             out.writeUTF(message);
             out.flush();

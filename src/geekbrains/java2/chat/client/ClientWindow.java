@@ -27,12 +27,14 @@ class ClientWindow extends JFrame {
     private JTextField jServerAddress = null;
     private JTextField jServerPort = null;
 
+    private JMenuItem jLogout = null;
+
 
     ClientWindow() {
         final ActionListener sendText = e -> {
             if (!textField.getText().equals("")) {
                 printMsg(textField.getText());
-                sendMsg();
+                sendMsg(textField.getText());
             }
         }; //ActionListener для отправки текста и записи его в файл, используется в текстовом поле и в кнопке
 
@@ -54,7 +56,10 @@ class ClientWindow extends JFrame {
         mainMenuFirst.add(new JMenuItem("Register...", KeyEvent.VK_R));
         mainMenuFirst.add(new JMenuItem("Login...", KeyEvent.VK_L));
         mainMenuFirst.add(new JMenuItem("Change password...", KeyEvent.VK_N));
-        mainMenuFirst.add(new JMenuItem("Logout", KeyEvent.VK_O));
+        jLogout = new JMenuItem("Logout", KeyEvent.VK_O);
+        jLogout.addActionListener(e -> sendMsg("/end"));
+        jLogout.setEnabled(false);
+        mainMenuFirst.add(jLogout);
         mainMenuFirst.add(new JMenuItem("Exit", KeyEvent.VK_X)).addActionListener(e -> {
             disconnect();
             System.exit(0);
@@ -148,10 +153,9 @@ class ClientWindow extends JFrame {
         setVisible(true);
     }
 
-    private void sendMsg() {
-        String str = textField.getText();
+    private void sendMsg(String message) {
         try {
-            out.writeUTF(str);
+            out.writeUTF(message);
             out.flush();
             textField.setText("");
             textField.requestFocus();
@@ -227,9 +231,11 @@ class ClientWindow extends JFrame {
         if (!nick.isEmpty()) {
             this.setTitle("Клиент: " + nick);
             mainWindow.show(centerWindow, "chat");
+            jLogout.setEnabled(true);
         } else {
             this.setTitle("Клиент: не авторизован");
             mainWindow.show(centerWindow, "authorization");
+            jLogout.setEnabled(false);
         }
     }
 
