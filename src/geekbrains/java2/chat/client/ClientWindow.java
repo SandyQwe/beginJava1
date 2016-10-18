@@ -9,7 +9,6 @@ import java.io.*;
 import java.net.Socket;
 
 class ClientWindow extends JFrame {
-
     private Socket sock = null;
     private DataInputStream in = null;
     private DataOutputStream out = null;
@@ -17,9 +16,10 @@ class ClientWindow extends JFrame {
     private JTextArea mainChatText = new JTextArea(); //Поле для вывода текста чата
     private JTextField textField = new JTextField(); //Поле для ввода текста пользователем
     private PrintWriter chatTextFile = null;
+    private String nick;
 
 
-    ClientWindow(){
+    ClientWindow() {
         final ActionListener sendText = new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -102,14 +102,13 @@ class ClientWindow extends JFrame {
 
     private void sendMsg() {
         String str = textField.getText();
-        textField.setText("");
-        textField.requestFocus();
         try {
             out.writeUTF(str);
             out.flush();
+            textField.setText("");
+            textField.requestFocus();
         } catch (IOException e) {
-            JOptionPane.showMessageDialog(null, "Connection error...");
-            e.printStackTrace();
+            JOptionPane.showMessageDialog(null, "Невозможно отослать сообщение. Проверьте сетевое подключение");
         }
     }
 
@@ -118,44 +117,76 @@ class ClientWindow extends JFrame {
             out.writeUTF("/auth " + login + " " + pass);
             out.flush();
         } catch (IOException e) {
-            e.printStackTrace();
+            JOptionPane.showMessageDialog(null, "Невозможно произвести попытку авторизации. Проверьте сетевое подключение");
         }
     }
 
     public void connect() {
-        if (sock ==null) {
-            try {
-//                sock = new Socket("83.221.205.67", 8189);
-                sock = new Socket("localhost", 8189);
+        try {
+            if (sock == null) {
+                sock = new Socket("83.221.205.67", 8189);
                 in = new DataInputStream(sock.getInputStream());
                 out = new DataOutputStream(sock.getOutputStream());
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-            new Thread(() -> {
-                try {
-                    while (true) {
-                        String str = in.readUTF();
-                        if (str != null && str.equals("/auth complete")) {
-                            auth = true;
-                            printMsg("Connected to server!");
-                            break;
+
+                new Thread(() -> {
+                    try {
+                        while (true) {
+                            String str = in.readUTF();
+                            if (str != null) {
+                                if (str.startsWith("/authok")) { // /authok NAME
+                                    setNick(str.split(" ")[1]);
+                                    break;
+                                }
+                                if (str.startsWith("...")){
+                                    printMsg(str);
+                                }
+                            }
                         }
-                    }
-                    while (true) {
-                        String str = in.readUTF();
-                        if (str != null) {
-                            mainChatText.append(str);
-                            mainChatText.append("\n");
-                            mainChatText.setCaretPosition(mainChatText.getDocument().getLength());
+
+                            while (true) {
+                                String str = in.readUTF();
+                                if (str != null) {
+                                    if (str.startsWith("/")) {
+                                        if (str.startsWith("/nickchanged")) {
+                                            String newNick = str.split(" ")[1];
+                                            setNick(newNick);
+                                        }
+                                        if (str.equals("/endsession")) {
+                                            setNick("");
+                                            break;
+                                        }
+                                    } else {
+                                        printMsg(str);
+                                    }
+                                }
+                            }
+                        } catch(IOException e){
+                            JOptionPane.showMessageDialog(null, "Обрыв соединения");
+                            setNick("");
+                            printMsg("Session closed...");
+                        } finally{
+                            try {
+                                sock.close();
+                                sock = null;
+                            } catch (IOException e) {
+                                e.printStackTrace();
+                            }
                         }
-                    }
-                } catch (IOException e) {
-                    mainChatText.append("Session closed...");
-                    mainChatText.setCaretPosition(mainChatText.getDocument().getLength());
-//                    e.printStackTrace();
+                    }).start();
                 }
-            }).start();
+            } catch(IOException e){
+                JOptionPane.showMessageDialog(null, "Невозможно подключиться к серверу");
+            }
+        }
+
+    private void setNick(String nick) {
+        this.nick = nick;
+        if (!nick.isEmpty()) {
+            this.setTitle("Клиент: " + nick);
+//            enableAuthPanel(false);
+        } else {
+            this.setTitle("Клиент: не авторизован");
+//            enableAuthPanel(true);
         }
     }
 
@@ -163,18 +194,20 @@ class ClientWindow extends JFrame {
         try {
             sock.close();
         } catch (IOException e) {
-            e.printStackTrace();
+            JOptionPane.showMessageDialog(null, "Соединение закрыто");
         }
+        setNick("");
+//        enableAuthPanel(true);
     }
 
-    private void printMsg (String message){
-        if (auth) {
+    private void printMsg(String message) {
+        if (!nick.equals("")) {
             chatTextFile.append(message);
             chatTextFile.append("\n");
             chatTextFile.flush();
             mainChatText.append(message + "\n");
             mainChatText.setCaretPosition(mainChatText.getDocument().getLength());
-        }  else {
+        } else {
             mainChatText.append("Authorisation needed...\n");
             mainChatText.setCaretPosition(mainChatText.getDocument().getLength());
         }

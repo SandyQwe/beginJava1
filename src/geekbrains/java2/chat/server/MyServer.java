@@ -6,20 +6,18 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.ArrayList;
 
-public class MyServer {
-
+class MyServer {
     private ServerSocket serv = null;
     private final int PORT = 8189;
     private ArrayList<ClientHandler> list;
 
-    public MyServer(){
-
+    MyServer() {
         try {
             list = new ArrayList<>();
             serv = new ServerSocket(PORT);
             SQLHandler.connect();
-            System.out.println("Waiting for clients...");
-            while(true) {
+            System.out.println("Ожидаем клиентов...");
+            while (true) {
                 Socket sock = serv.accept();
                 System.out.println("Client connected");
                 broadCastMessage("server", "New client connected...");
@@ -28,12 +26,13 @@ public class MyServer {
                 new Thread(ch).start();
             }
         } catch (IOException e) {
-            e.printStackTrace();
+            System.out.println("Проблемы с сервером");
         } finally {
             try {
                 serv.close();
+                System.out.println("Сервер закрыт");
             } catch (IOException e) {
-                e.printStackTrace();
+                System.out.println("Проблемы с закрытием сервера");
             }
         }
     }
@@ -44,7 +43,25 @@ public class MyServer {
         }
     }
 
-    public synchronized void unsubscribe (ClientHandler o){
+    synchronized void unsubscribe(ClientHandler o) {
         list.remove(o);
+    }
+
+    boolean isNickBusy(String nick) {
+        for (ClientHandler o : list) {
+            if (o.getNick().equals(nick))
+                return true;
+        }
+        return false;
+    }
+
+    void personalMessage(ClientHandler from, String toNick, String msg) {
+        for (ClientHandler o : list) {
+            if (o.getNick().equals(toNick)) {
+                o.sendMessage("from " + from.getNick() + ": " + msg);
+                from.sendMessage("to " + toNick + ": " + msg);
+                break;
+            }
+        }
     }
 }

@@ -133,7 +133,7 @@ class MyWindow extends JFrame {
                                     setNick(str.split(" ")[1]);
                                     break;
                                 }
-                                if (str.startsWith("...")){
+                                if (str.startsWith("...")) {
                                     jta.append(str);
                                     jta.append("\n");
                                     jta.setCaretPosition(jta.getDocument().getLength());
@@ -144,12 +144,12 @@ class MyWindow extends JFrame {
                         while (true) {
                             String str = in.readUTF();
                             if (str != null) {
-                                if(str.startsWith("/")) {
-                                    if(str.startsWith("/nickchanged")) {
+                                if (str.startsWith("/")) {
+                                    if (str.startsWith("/nickchanged")) {
                                         String newNick = str.split(" ")[1];
                                         setNick(newNick);
                                     }
-                                    if(str.equals("/endsession")) {
+                                    if (str.equals("/endsession")) {
                                         setNick("");
                                         break;
                                     }
@@ -183,8 +183,7 @@ class MyWindow extends JFrame {
         if (!nick.isEmpty()) {
             this.setTitle("Клиент: " + nick);
             enableAuthPanel(false);
-        }
-        else {
+        } else {
             this.setTitle("Клиент: не авторизован");
             enableAuthPanel(true);
         }
