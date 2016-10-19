@@ -95,7 +95,6 @@ class ClientWindow extends JFrame {
                 disconnect();
             }
         });
-        //// TODO: 11.10.2016 сделать окошко авторизации
 
         setVisible(true);
     }

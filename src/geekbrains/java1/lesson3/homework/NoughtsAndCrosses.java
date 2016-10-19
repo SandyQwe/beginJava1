@@ -3,20 +3,17 @@ package geekbrains.java1.lesson3.homework;
 import java.util.Random;
 import java.util.Scanner;
 
-/**
- * Created by sadmin on 21.08.2016.
- */
 class NoughtsAndCrosses {
-    final char HUMAN_DOT = 'X';
-    final char AI_DOT = 'O';
-    final char EMPTY_DOT = '*';
-    final Scanner scanner = new Scanner(System.in);
-    final Random rnd = new Random();
-    int fieldSizeY;
-    int fieldSizeX;
-    int line;
-    char[][] field;
-    int[] lastCell = {0, 0};
+    private final char HUMAN_DOT = 'X';
+    private final char AI_DOT = 'O';
+    private final char EMPTY_DOT = '*';
+    private final Scanner scanner = new Scanner(System.in);
+    private final Random rnd = new Random();
+    private int fieldSizeY;
+    private int fieldSizeX;
+    private int line;
+    private char[][] field;
+    private int[] lastCell = {0, 0};
 
     void play() {
 
@@ -162,15 +159,8 @@ class NoughtsAndCrosses {
 
     private boolean aiCanBlock(int x, int y) {
         //пока просматривает только смежные символы начиная с последнего, который поставил игрок
-        // TODO: 22.08.2016 переделать выбор ячейки для блокирования на основе switch, для этого 
         // ввести переменную типа byte каждый из битов которой будет означать конкретное направление
         // установки нолика
-
-        // TODO: 22.08.2016 сделать выбор возможности блокирования промежутка между двух крестиков 
-
-        // TODO: 22.08.2016 приоритет блокирования поставить рандомно (поскольку пока непонятно, как расставить приоритет исходя из возможностей блокирования 
-
-        // TODO: 22.08.2016 реализовать "вес" ячейки на основе количества смежных ячеек с тем же символом 
 
         //проверка на возможность блока справа
         if (x > 0 && field[y][x - 1] == HUMAN_DOT && validCell(x + 1, y) && emptyCell(x + 1, y)) {
