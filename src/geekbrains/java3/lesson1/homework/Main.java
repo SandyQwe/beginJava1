@@ -1,15 +1,26 @@
 package geekbrains.java3.lesson1.homework;
 
 import java.util.ArrayList;
+import java.util.DoubleSummaryStatistics;
 
-class Box {
-    private ArrayList<Fruit> fruit;
+class Box<T extends Fruit> {
+    private ArrayList<T> fruit;
 
-    public Box(ArrayList<Fruit> fruit) {
+    public Box(ArrayList<T> fruit) {
         this.fruit = fruit;
     }
 
-    public ArrayList<Fruit> getFruit() {
+    //Сделать метод getWeight() который высчитывает вес коробки, зная кол-во фруктов и вес одного фрукта
+    //(вес яблока - 1.0f, апельсина - 1.5f, не важно в каких это единицах);
+    public float getWeight() {
+        float sumWeight = 0.0f;
+        for (int i = 0; i < this.fruit.size(); i++) {
+            sumWeight += fruit.get(i).getWeight();
+        }
+        return sumWeight;
+    }
+
+    public ArrayList<T> getFruit() {
         return fruit;
     }
 
@@ -27,7 +38,7 @@ public class Main {
         ArrayList<Object> array = new ArrayList<>();
         convertToArrayList(array, objects);
 
-
+        //3) Большая задача:
 
 
     }
