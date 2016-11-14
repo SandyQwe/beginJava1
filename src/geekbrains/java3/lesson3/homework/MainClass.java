@@ -2,6 +2,10 @@ package geekbrains.java3.lesson3.homework;
 
 import java.io.*;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Enumeration;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class MainClass {
     public static void main(String[] args) {
@@ -36,6 +40,46 @@ public class MainClass {
 //        ArrayList<FileInputStream> al = new ArrayList<>();
 //        ...
 //        Enumeration<FileInputStream> e = Collections.enumeration(al);
+        FilenameFilter ff = new FilenameFilter() {
+            @Override
+            public boolean accept(File dir, String name) {
+                Pattern p = Pattern.compile("^[0-9]*\\.txt$");
+                Matcher m = p.matcher(name);
+                return m.matches();
+            }
+        };
+        File f = new File(".\\");
+        File[] ff2 = f.listFiles(ff);
+        ArrayList<BufferedInputStream> ff3 = new ArrayList<>();
+        try {
+            for (int i = 0; i < ff2.length; i++) {
+                ff3.add(new BufferedInputStream(new FileInputStream(ff2[i])));
+            }
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+        Enumeration<BufferedInputStream> e = Collections.enumeration(ff3);
+        SequenceInputStream input2 = new SequenceInputStream(e);
+        BufferedOutputStream outputFile = null;
+        try {
+            outputFile = new BufferedOutputStream(new FileOutputStream(".\\output.txt"));
+            int n = input2.read();
+            while (n != -1) {
+                outputFile.write(n);
+                n = input2.read();
+            }
+            outputFile.flush();
+        } catch (IOException e1) {
+            e1.printStackTrace();
+        } finally {
+            try {
+                outputFile.close();
+                input2.close();
+            } catch (IOException e1) {
+                e1.printStackTrace();
+            }
+        }
+
 
 //3) Написать консольное приложение, которое умеет постранично читать текстовые файлы(размером > 10 mb),
 // вводим страницу, программа выводит ее в консоль(за страницу можно принимаем 1800 символов). Время чтения файла

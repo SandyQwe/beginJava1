@@ -1,25 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d30a2e2c-3e4e-4ace-9f09-02ee2ebf323b" name="Default" comment="сделал первое задание к 3 уроку 3 части курса Java">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/geekbrains/java3/lesson3/homework/MainClass.java" />
+    <list default="true" id="d30a2e2c-3e4e-4ace-9f09-02ee2ebf323b" name="Default" comment="сделал второе задание к 3 уроку 3 части курса Java">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Diary/TestParseHTML.java" afterPath="$PROJECT_DIR$/src/diary/TestParseHTML.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Diary/WeatherEvent.java" afterPath="$PROJECT_DIR$/src/diary/WeatherEvent.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Games/GameOfLife.java" afterPath="$PROJECT_DIR$/src/games/GameOfLife.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Games/Tetris.java" afterPath="$PROJECT_DIR$/src/games/Tetris.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Games/img/btnColor.png" afterPath="$PROJECT_DIR$/src/games/img/btnColor.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Games/img/btnFaster.png" afterPath="$PROJECT_DIR$/src/games/img/btnFaster.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Games/img/btnFill.png" afterPath="$PROJECT_DIR$/src/games/img/btnFill.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Games/img/btnGo.png" afterPath="$PROJECT_DIR$/src/games/img/btnGo.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Games/img/btnGrid.png" afterPath="$PROJECT_DIR$/src/games/img/btnGrid.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Games/img/btnNew.png" afterPath="$PROJECT_DIR$/src/games/img/btnNew.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Games/img/btnNoColor.png" afterPath="$PROJECT_DIR$/src/games/img/btnNoColor.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Games/img/btnOpen.png" afterPath="$PROJECT_DIR$/src/games/img/btnOpen.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Games/img/btnSave.png" afterPath="$PROJECT_DIR$/src/games/img/btnSave.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Games/img/btnSlower.png" afterPath="$PROJECT_DIR$/src/games/img/btnSlower.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Games/img/btnStep.png" afterPath="$PROJECT_DIR$/src/games/img/btnStep.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Games/img/btnStop.png" afterPath="$PROJECT_DIR$/src/games/img/btnStop.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/geekbrains/java3/lesson3/homework/MainClass.java" afterPath="$PROJECT_DIR$/src/geekbrains/java3/lesson3/homework/MainClass.java" />
     </list>
     <ignored path="beginJava_1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MainClass.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainClass.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/geekbrains/java3/lesson3/homework/MainClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state relative-caret-position="408">
+              <caret line="75" column="27" selection-start-line="75" selection-start-column="27" selection-end-line="75" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -52,17 +37,53 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WeatherEvent.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/diary/WeatherEvent.java">
+      <file leaf-file-name="Matcher.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Program Files/Java/JDK/src.zip!/java/util/regex/Matcher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="10" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
+            <state relative-caret-position="235">
+              <caret line="602" column="19" selection-start-line="602" selection-start-column="19" selection-end-line="602" selection-end-column="19" />
+              <folding>
+                <element signature="e#21591#21592#0" expanded="true" />
+                <element signature="e#21636#21637#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Pattern.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Program Files/Java/JDK/src.zip!/java/util/regex/Pattern.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="1085" column="19" selection-start-line="1085" selection-start-column="19" selection-end-line="1085" selection-end-column="19" />
+              <folding>
+                <element signature="e#48487#48488#0" expanded="true" />
+                <element signature="e#48531#48532#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileInputStream.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Program Files/Java/JDK/src.zip!/java/io/FileInputStream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-745">
+              <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Tetris.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SequenceInputStream.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Program Files/Java/JDK/src.zip!/java/io/SequenceInputStream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="161" column="15" selection-start-line="161" selection-start-column="15" selection-end-line="161" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tetris.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/games/Tetris.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="224">
@@ -82,21 +103,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataInput.java" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Program Files/Java/JDK/src.zip!/java/io/DataInput.java">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/geekbrains/java1/lesson6/homework/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1008">
-              <caret line="189" column="9" selection-start-line="189" selection-start-column="9" selection-end-line="189" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataInputStream.java" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Program Files/Java/JDK/src.zip!/java/io/DataInputStream.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="515">
-              <caret line="264" column="22" selection-start-line="264" selection-start-column="22" selection-end-line="264" selection-end-column="22" />
+            <state relative-caret-position="867">
+              <caret line="54" column="33" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -105,41 +116,9 @@
       <file leaf-file-name="InputStream.java" pinned="false" current-in-tab="false">
         <entry file="jar://D:/Program Files/Java/JDK/src.zip!/java/io/InputStream.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="64" column="24" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
+            <state relative-caret-position="-1026">
+              <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="1.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BufferedInputStream.java" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Program Files/Java/JDK/src.zip!/java/io/BufferedInputStream.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="332" column="28" selection-start-line="332" selection-start-column="28" selection-end-line="332" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainClass.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson6/homework/chatServer/MainClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -202,8 +181,9 @@
         <option value="$PROJECT_DIR$/src/geekbrains/java2/lesson6/homework/chatServer/ClientHandler.java" />
         <option value="$PROJECT_DIR$/src/geekbrains/java2/lesson6/homework/chatServer/myServer.java" />
         <option value="$PROJECT_DIR$/src/geekbrains/java2/lesson6/homework/chatServer/MyServer.java" />
-        <option value="$PROJECT_DIR$/src/geekbrains/java3/lesson3/homework/MainClass.java" />
         <option value="$PROJECT_DIR$/src/Diary/WeatherEvent.java" />
+        <option value="$PROJECT_DIR$/output.txt" />
+        <option value="$PROJECT_DIR$/src/geekbrains/java3/lesson3/homework/MainClass.java" />
       </list>
     </option>
   </component>
@@ -396,6 +376,54 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="geekbrains" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="beginJava1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="beginJava1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geekbrains" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="beginJava1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="beginJava1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geekbrains" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="homework" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1165,16 +1193,23 @@
       <option name="project" value="LOCAL" />
       <updated>1475869116335</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="сделал первое задание к 3 уроку 3 части курса Java">
+      <created>1479109303477</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1479109303477</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328341" sideWeight="0.50298506" order="10" side_tool="true" content_ui="tabs" />
@@ -1228,7 +1263,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="сделал метод для определения високосного года" />
     <MESSAGE value="косметические изменения" />
     <MESSAGE value="убрал лишние скобки" />
     <MESSAGE value="начало третьего урока" />
@@ -1253,73 +1287,20 @@
     <MESSAGE value="добавил код с урока 7" />
     <MESSAGE value="небольшие доделки предыдущего коммита" />
     <MESSAGE value="сделал первое задание к 3 уроку 3 части курса Java" />
-    <option name="LAST_COMMIT_MESSAGE" value="сделал первое задание к 3 уроку 3 части курса Java" />
+    <MESSAGE value="сделал второе задание к 3 уроку 3 части курса Java" />
+    <option name="LAST_COMMIT_MESSAGE" value="сделал второе задание к 3 уроку 3 части курса Java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="8" />
+      <option name="time" value="9" />
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="c" />
-        <watch expression="t2.participants[0]" />
-      </configuration>
-    </watches-manager>
+    <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson1/homework/Cross.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson1/homework/Wall.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson1/homework/Water.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson1/homework/Sportsman.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson1/homework/Transport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson1/homework/Cat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson1/homework/Dog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson1/homework/Animal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
@@ -1425,13 +1406,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/geekbrains/java1/lesson2/homework/Homework.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-863">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/geekbrains/java1/lesson4/homework/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -1443,13 +1417,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/JDK/src.zip!/java/io/File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="274" column="11" selection-start-line="274" selection-start-column="11" selection-end-line="274" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -1474,13 +1441,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/geekbrains/java1/lesson6/homework/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="62" column="60" selection-start-line="62" selection-start-column="60" selection-end-line="62" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/weather_sample.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2125">
@@ -1492,14 +1452,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson5/homework/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1561,7 +1513,7 @@
         <state relative-caret-position="442">
           <caret line="35" column="51" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1571,7 +1523,7 @@
         <state relative-caret-position="119">
           <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1608,32 +1560,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files/Java/JDK/src.zip!/java/io/InputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="64" column="24" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/JDK/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="403" column="19" selection-start-line="403" selection-start-column="19" selection-end-line="403" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/geekbrains/java3/lesson3/homework/MainClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/diary/WeatherEvent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1647,6 +1573,131 @@
         <state relative-caret-position="224">
           <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/JDK/src.zip!/java/io/InputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1026">
+          <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/JDK/src.zip!/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1816">
+          <caret line="148" column="13" selection-start-line="148" selection-start-column="13" selection-end-line="148" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/JDK/src.zip!/java/io/FileInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-745">
+          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/file1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/JDK/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-173">
+          <caret line="1432" column="37" selection-start-line="1432" selection-start-column="37" selection-end-line="1432" selection-end-column="37" />
+          <folding>
+            <element signature="e#55800#55801#0" expanded="false" />
+            <element signature="e#55844#55845#0" expanded="false" />
+            <element signature="e#56437#56438#0" expanded="false" />
+            <element signature="e#56514#56515#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/JDK/src.zip!/java/util/regex/Pattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="1085" column="19" selection-start-line="1085" selection-start-column="19" selection-end-line="1085" selection-end-column="19" />
+          <folding>
+            <element signature="e#48487#48488#0" expanded="true" />
+            <element signature="e#48531#48532#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/JDK/src.zip!/java/util/regex/Matcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="602" column="19" selection-start-line="602" selection-start-column="19" selection-end-line="602" selection-end-column="19" />
+          <folding>
+            <element signature="e#21591#21592#0" expanded="true" />
+            <element signature="e#21636#21637#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/geekbrains/java1/lesson2/homework/Homework.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/geekbrains/java2/lesson5/homework/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/JDK/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="403" column="19" selection-start-line="403" selection-start-column="19" selection-end-line="403" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/JDK/src.zip!/java/io/SequenceInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="161" column="15" selection-start-line="161" selection-start-column="15" selection-end-line="161" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/geekbrains/java1/lesson6/homework/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="54" column="33" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="1094" selection-start-line="0" selection-start-column="1094" selection-end-line="0" selection-end-column="1094" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/geekbrains/java3/lesson3/homework/MainClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="75" column="27" selection-start-line="75" selection-start-column="27" selection-end-line="75" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
