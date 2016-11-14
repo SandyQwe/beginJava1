@@ -44,7 +44,7 @@ public class MainClass {
         FilenameFilter ff = new FilenameFilter() {
             @Override
             public boolean accept(File dir, String name) {
-                Pattern p = Pattern.compile("^[0-9]*\\.txt$");
+                Pattern p = Pattern.compile("^[0-9]*\\.txt$"); //для отбора 10 файлов 0.txt 1.txt ... 9.txt
                 Matcher m = p.matcher(name);
                 return m.matches();
             }
