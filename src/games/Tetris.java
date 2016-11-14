@@ -1,7 +1,7 @@
-package Games;
+package games;
 
 /**
- * Java. Classic Game Games
+ * Java. Classic Game games
  *
  * https://github.com/biblelamp/JavaExercises
  *
@@ -15,7 +15,7 @@ import java.util.*;
 
 public class Tetris {
 
-    final String TITLE_OF_PROGRAM = "Games";
+    final String TITLE_OF_PROGRAM = "games";
     final int BLOCK_SIZE = 25; // size of one block
     final int ARC_RADIUS = 6;
     final int FIELD_WIDTH = 10; // size game field in block

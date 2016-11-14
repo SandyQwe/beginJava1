@@ -1,4 +1,4 @@
-package Games;
+package games;
 
 /**
  * Java. Conway's Game of Life
@@ -18,9 +18,7 @@ package Games;
 import java.awt.*;
 import java.awt.event.*;
 import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
 import javax.swing.*;
-import javax.swing.filechooser.*;
 import javax.swing.filechooser.FileFilter;
 import java.util.*;
 import java.io.*;
